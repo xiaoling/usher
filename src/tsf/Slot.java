@@ -1,3 +1,4 @@
+package tsf;
 
 public class Slot {
 	public String name, rel, val,docid;

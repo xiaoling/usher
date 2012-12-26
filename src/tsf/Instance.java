@@ -1,3 +1,4 @@
+package tsf;
 
 public class Instance {
 	public Slot slot = null;
