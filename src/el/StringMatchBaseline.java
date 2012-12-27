@@ -1,5 +1,7 @@
 package el;
 
+import tackbp.KB;
+
 public class StringMatchBaseline {
 	public int nilId = 0;
 	public int hit = 0;

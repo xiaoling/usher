@@ -1,4 +1,4 @@
-package el;
+package tackbp;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,14 +14,16 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import el.ElConstants;
+
 public class KB {
-	Map<String, KbEntity> entityMap = new HashMap<String, KbEntity>(); 
+	public Map<String, KbEntity> entityMap = new HashMap<String, KbEntity>(); 
 	public void init() {
 		System.out.println("Reading KB");
-		for (int i = ElContants.kbFileStart; i < ElContants.kbFileEnd; ++i) {
+		for (int i = ElConstants.kbFileStart; i < ElConstants.kbFileEnd; ++i) {
 			System.out.print("reading "+i+"...\r");
-			readFrom(ElContants.kbPath
-					+ String.format(ElContants.kbFileFormat, i));
+			readFrom(ElConstants.kbPath
+					+ String.format(ElConstants.kbFileFormat, i));
 		}
 		System.out.println("Finished KB");
 	}

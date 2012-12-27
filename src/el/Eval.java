@@ -4,9 +4,9 @@ import util.io.FileUtil;
 
 public class Eval {
 	public static void run() {
-		String[] evalLines = FileUtil.getTextFromFile(ElContants.evalFile)
+		String[] evalLines = FileUtil.getTextFromFile(ElConstants.evalFile)
 				.split("\n");
-		String[] predLines = FileUtil.getTextFromFile("el.out").split("\n");
+		String[] predLines = FileUtil.getTextFromFile("data/el_predictions/el.out").split("\n");
 		int correct = 0;
 		int all = 0;
 		for (int i = 0; i < evalLines.length; ++i) {

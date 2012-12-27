@@ -1,4 +1,4 @@
-package el;
+package tackbp;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -11,7 +11,7 @@ import java.util.Map;
  *
  */
 public class KbEntity {
-	enum EntityType{
+	public enum EntityType{
 		PER, ORG, UKN, GPE
 	}
 	public String wikiTitle = null;

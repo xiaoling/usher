@@ -1,7 +1,7 @@
 package el;
 
 /**
- * Query mention
+ * Query mention for EL
  * @author xiaoling
  *
  */
