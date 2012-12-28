@@ -1,19 +1,25 @@
 import java.io.IOException;
-import java.util.List;
 
-import sf.Corpus;
-import sf.RegexBirthdateBaseline;
-import sf.SFConstants;
-import sf.SFEntityMention;
-import sf.SFEntityMention.SingleAnswer;
 import sf.SFGold;
 import sf.SFScore;
-import tackbp.RetrieveDocument;
+import tackbp.KB;
 import util.io.FileUtil;
+import el.ElConstants;
+import el.EntityMention;
 import el.Eval;
+import el.StringMatchBaseline;
 
 public class Main {
 	public static void main(String[] args) {
+		if (args[0].equals("sf")) {
+			sf_main(args);
+		}
+		if (args[0].equals("el")) {
+			el_main(args);
+		}
+	}
+	
+	public static void sf_main(String[] args) {
 //		sf.QueryReader qReader = new sf.QueryReader();
 //		qReader.readFrom(SFConstants.queryFile);
 //		RegexBirthdateBaseline baseline = new RegexBirthdateBaseline();
@@ -66,22 +72,20 @@ public class Main {
 	}
 
 	public static void el_main(String[] args) {
-		// KB kb = new KB();
-		// kb.init();
-		// el.QueryReader qReader = new el.QueryReader();
-		// qReader.readFrom(ElContants.queryFile);
-		// StringMatchBaseline baseline = new StringMatchBaseline();
-		// for (EntityMention mention: qReader.queryList) {
-		// baseline.predict(mention, kb);
-		// }
-		// System.out.println("baseline hit = "+baseline.hit);
-		// StringBuilder sb = new StringBuilder();
-		// for (EntityMention mention: qReader.queryList) {
-		// sb.append(mention.queryId+"\t"+mention.entityId+"\n");
-		// }
-		// FileUtil.writeTextToFile(sb.toString(),
-		// "data/el_predictions/el.out");
-
+		KB kb = new KB();
+		kb.init();
+		el.QueryReader qReader = new el.QueryReader();
+		qReader.readFrom(ElConstants.queryFile);
+		StringMatchBaseline baseline = new StringMatchBaseline();
+		for (EntityMention mention : qReader.queryList) {
+			baseline.predict(mention, kb);
+		}
+		System.out.println("baseline hit = " + baseline.hit);
+		StringBuilder sb = new StringBuilder();
+		for (EntityMention mention : qReader.queryList) {
+			sb.append(mention.queryId + "\t" + mention.entityId + "\n");
+		}
+		FileUtil.writeTextToFile(sb.toString(), "data/el_predictions/el.out");
 		System.out.println("Eval...");
 		Eval.run();
 	}
