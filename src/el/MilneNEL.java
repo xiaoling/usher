@@ -27,7 +27,9 @@ public class MilneNEL {
 				sent = line; 
 				System.out.println(sent+"\t"+mention.queryId+"\t"+start+"\t"+end);
 				break;
-			} 
+			} else {
+				System.out.println(line + "\tnot found "+mention.mentionString);
+			}
 		}
 		if (sent == null) {
 			System.err.println("sentence not found: "+mention);
