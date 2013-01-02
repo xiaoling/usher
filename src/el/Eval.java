@@ -15,11 +15,13 @@ public class Eval {
 			if (!items[0].equals(items2[0])) {
 				System.out.println("wrong");
 			} else {
-				if (items2[1].startsWith("NIL") && items[0].startsWith("NIL")) {
+				if (items2[1].startsWith("NIL") && items[1].startsWith("NIL")) {
 					correct++;
 				} else if (!items2[1].startsWith("NIL")
 						&& items2[1].equals(items[1])) {
 					correct++;
+				} else {
+					System.out.println("query = "+items2[0]+", pred = "+items2[1] +", label = "+items[1]);
 				}
 			}
 			all++;

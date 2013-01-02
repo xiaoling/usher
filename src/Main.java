@@ -14,7 +14,7 @@ import util.io.FileUtil;
 import el.ElConstants;
 import el.EntityMention;
 import el.Eval;
-import el.StringMatchBaseline;
+import el.MilneNEL;
 
 public class Main {
 	public static void main(String[] args) {
@@ -111,10 +111,12 @@ public class Main {
 		}
 		if (run) {
 			KB kb = new KB();
-			kb.init();
+			System.out.println("milne");
+//			kb.init();
 			el.QueryReader qReader = new el.QueryReader();
 			qReader.readFrom(ElConstants.queryFile);
-			StringMatchBaseline baseline = new StringMatchBaseline();
+//			StringMatchBaseline baseline = new StringMatchBaseline();
+			MilneNEL baseline = new MilneNEL();
 			for (EntityMention mention : qReader.queryList) {
 				baseline.predict(mention, kb);
 			}
@@ -123,8 +125,8 @@ public class Main {
 			for (EntityMention mention : qReader.queryList) {
 				sb.append(mention.queryId + "\t" + mention.entityId + "\n");
 			}
-			FileUtil.writeTextToFile(sb.toString(),
-					"data/el_predictions/el.out");
+//			FileUtil.writeTextToFile(sb.toString(),
+//					"data/el_predictions/el.out");
 		}
 		if (eval) {
 			System.out.println("Eval...");
