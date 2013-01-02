@@ -36,26 +36,31 @@ public class RetrieveDocument {
 					.newInstance();
 			factory.setIgnoringElementContentWhitespace(true);
 			// factory.setValidating(true);
+			filename = getFilePath(filename);
 			Document doc = factory.newDocumentBuilder().parse(
-					new File(getFilePath(filename)));
+					new File(filename));
+
 			if (filename.contains("2009/nw")) {
 				NodeList nodeList = doc.getElementsByTagName("P");
 				for (int i = 0; i < nodeList.getLength(); i++) {
-					lines.add(nodeList.item(i).getTextContent());
+					lines.add(nodeList.item(i).getTextContent()
+							.replace("\n", " ").trim());
 				}
 			} else if (filename.contains("2010/wb")) {
 				NodeList nodeList = doc.getElementsByTagName("POST");
-				if (nodeList.getLength() > 1) {
-					System.err.println("> 1 POST nodes!" + filename);
-				}
-				nodeList = nodeList.item(0).getChildNodes();
-				for (int i = nodeList.getLength() - 1; i > -1; i--) {
-					if (nodeList.item(i).getNodeName().equals("#text")) {
-						for (String line : nodeList.item(i).getTextContent()
-								.split("\n\n")) {
-							lines.add(line);
+//				if (nodeList.getLength() > 1) {
+//					System.err.println("> 1 POST nodes!" + filename);
+//				}
+				for (int j = 0; j < nodeList.getLength(); ++j) {
+					NodeList childNodeList = nodeList.item(j).getChildNodes();
+					for (int i = childNodeList.getLength() - 1; i > -1; i--) {
+						if (childNodeList.item(i).getNodeName().equals("#text")) {
+							for (String line : childNodeList.item(i)
+									.getTextContent().split("\n\n")) {
+								lines.add(line.replace("\n", " ").trim());
+							}
+							break;
 						}
-						break;
 					}
 				}
 			}

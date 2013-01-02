@@ -111,7 +111,6 @@ public class Main {
 		}
 		if (run) {
 			KB kb = new KB();
-			System.out.println("milne");
 //			kb.init();
 			el.QueryReader qReader = new el.QueryReader();
 			qReader.readFrom(ElConstants.queryFile);
@@ -120,7 +119,6 @@ public class Main {
 			for (EntityMention mention : qReader.queryList) {
 				baseline.predict(mention, kb);
 			}
-			System.out.println("baseline hit = " + baseline.hit);
 			StringBuilder sb = new StringBuilder();
 			for (EntityMention mention : qReader.queryList) {
 				sb.append(mention.queryId + "\t" + mention.entityId + "\n");
