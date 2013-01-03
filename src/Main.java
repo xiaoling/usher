@@ -87,7 +87,7 @@ public class Main {
 		}
 		if (eval) {
 			try {
-				SFGold.getGoldFromAssessment();
+//				SFGold.getGoldFromAssessment();
 				SFScore.main(new String[] { "data/sf_predictions/sf.out",
 						"data/sf.gold" });
 			} catch (IOException e) {
