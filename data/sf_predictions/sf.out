@@ -66,7 +66,7 @@ SF264	per:date_of_birth	RegexBirthdateBaseline	NIL
 SF265	per:date_of_birth	RegexBirthdateBaseline	NIL	
 SF266	per:date_of_birth	RegexBirthdateBaseline	NIL	
 SF267	per:date_of_birth	RegexBirthdateBaseline	NIL	
-SF268	per:date_of_birth	RegexBirthdateBaseline	NIL	
+SF268	per:date_of_birth	RegexBirthdateBaseline	XIN_ENG_20080224.0243.LDC2009T13	June_3
 SF269	per:date_of_birth	RegexBirthdateBaseline	NIL	
 SF270	per:date_of_birth	RegexBirthdateBaseline	NIL	
 SF271	per:date_of_birth	RegexBirthdateBaseline	NIL	

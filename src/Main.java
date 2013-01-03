@@ -2,11 +2,12 @@ import java.io.IOException;
 import java.util.List;
 
 import sf.Corpus;
+import sf.FakeCorpus;
 import sf.RegexBirthdateBaseline;
+import sf.RegexBirthdateBaselineTrueFileList;
 import sf.SFConstants;
 import sf.SFEntityMention;
 import sf.SFEntityMention.SingleAnswer;
-import sf.SFGold;
 import sf.SFScore;
 import tackbp.KB;
 import tackbp.RetrieveDocument;
@@ -44,7 +45,8 @@ public class Main {
 			sf.QueryReader qReader = new sf.QueryReader();
 			qReader.readFrom(SFConstants.queryFile);
 			RegexBirthdateBaseline baseline = new RegexBirthdateBaseline();
-			Corpus corpus = new Corpus();
+//			Corpus corpus = new Corpus();
+			Corpus corpus = new FakeCorpus(RegexBirthdateBaselineTrueFileList.files);
 			String file = corpus.next();
 			int c = 0;
 			while (file != null) {

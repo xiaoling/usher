@@ -29,7 +29,7 @@ public class RegexBirthdateBaseline {
 		}
 
 		Pattern patternFullName = Pattern.compile(mention.mentionString
-				+ " was born in (.+?)\\p{Punct}");
+				+ " was born (in|on) (.+?)\\p{Punct}");
 
 		String[] names = mention.mentionString.split(" ");
 		String first = names[0];
@@ -41,36 +41,36 @@ public class RegexBirthdateBaseline {
 		}
 
 		Pattern patternFirstName = Pattern.compile(first
-				+ " was born in (.+?)\\p{Punct}");
+				+ " was born (in|on) (.+?)\\p{Punct}");
 
 		Pattern patternLastName = Pattern.compile(last
-				+ " was born in (.+?)\\p{Punct}");
+				+ " was born (in|on) (.+?)\\p{Punct}");
 
 		for (String line : lines) {
 			{
 				Matcher matcher = patternFullName.matcher(line);
-				if (matcher.matches()) {
+				if (matcher.find()) {
 					SFEntityMention.SingleAnswer ans = new SFEntityMention.SingleAnswer();
-					ans.answer = matcher.group(1);
-					ans.answer = filename;
+					ans.answer = matcher.group(2);
+					ans.doc = filename;
 					mention.answers.put(slotName, ans);
 				}
 			}
 			{
 				Matcher matcher = patternFirstName.matcher(line);
-				if (matcher.matches()) {
+				if (matcher.find()) {
 					SFEntityMention.SingleAnswer ans = new SFEntityMention.SingleAnswer();
-					ans.answer = matcher.group(1);
-					ans.answer = filename;
+					ans.answer = matcher.group(2);
+					ans.doc = filename;
 					mention.answers.put(slotName, ans);
 				}
 			}
 			{
 				Matcher matcher = patternLastName.matcher(line);
-				if (matcher.matches()) {
+				if (matcher.find()) {
 					SFEntityMention.SingleAnswer ans = new SFEntityMention.SingleAnswer();
-					ans.answer = matcher.group(1);
-					ans.answer = filename;
+					ans.answer = matcher.group(2);
+					ans.doc = filename;
 					mention.answers.put(slotName, ans);
 				}
 			}

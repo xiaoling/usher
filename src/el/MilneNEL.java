@@ -10,6 +10,7 @@ import util.io.FileUtil;
 
 public class MilneNEL {
 	public static void main(String[] args) {
+		System.exit(-1);
 		KB kb = new KB();
 		kb.init();
 		String[] lines = FileUtil.getTextFromFile("milne.out").split("\n");
