@@ -9,6 +9,8 @@ import tackbp.RetrieveDocument;
 import util.io.FileUtil;
 
 public class MilneNEL {
+	// FIXME 5 mentions are missing
+	// these 5 predictions are manually added
 	public static void main(String[] args) {
 		System.exit(-1);
 		KB kb = new KB();

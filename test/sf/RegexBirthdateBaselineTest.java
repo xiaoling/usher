@@ -42,7 +42,7 @@ public class RegexBirthdateBaselineTest {
 			file = corpus.next();
 		}
 
-		assertEquals(qReader.queryList.get(0).answers.get(RegexBirthdateBaseline.slotName), "June_3");
+		assertEquals("June 3", qReader.queryList.get(0).answers.get(RegexBirthdateBaseline.slotName));
 		
 //		// System.out.println("baseline hit = " + baseline.hit);
 //		StringBuilder sb = new StringBuilder();
