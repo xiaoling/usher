@@ -20,4 +20,6 @@ public class KbpConstants {
 	// 2009, 2010 and their subfolders
 	public static final String docSourcePath = rootPath
 			+ "TAC10Source/TAC_2010_KBP_Source_Data/data/";
+	
+	public static final String processedDocPath = "/projects/pardosa/s5/raphaelh/tac/data/";
 }

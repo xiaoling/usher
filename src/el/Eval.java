@@ -1,6 +1,6 @@
 package el;
 
-import util.io.FileUtil;
+import util.FileUtil;
 
 public class Eval {
 	public static void run() {

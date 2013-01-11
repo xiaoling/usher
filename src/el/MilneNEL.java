@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 import tackbp.KB;
 import tackbp.RetrieveDocument;
-import util.io.FileUtil;
+import util.FileUtil;
 
 public class MilneNEL {
 	// FIXME 5 mentions are missing

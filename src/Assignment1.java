@@ -8,10 +8,10 @@ import sf.eval.SFScore;
 import sf.filler.Filler;
 import sf.filler.RegexBirthdateBaselineTrueFileList;
 import sf.filler.RegexBirthdateFiller;
-import sf.retriever.Corpus;
-import sf.retriever.FakeCorpus;
+import sf.retriever.raw.Corpus;
+import sf.retriever.raw.FakeCorpus;
 import tackbp.RetrieveDocument;
-import util.io.FileUtil;
+import util.FileUtil;
 
 /**
  * CSE 454 Assignment 1 main class. Java 7 required.
@@ -74,15 +74,18 @@ public class Assignment1 {
 				while (corpus.hasNext()) {
 					file = corpus.next();
 					if (c++ % 1000 == 0) {
-						System.out.print("finished reading .." + c + "\r");
+						System.out.print("finished reading " + c + " articles\r");
 					}
 					file = file.replace(".sgm", "");
 					List<String> lines = RetrieveDocument.getContent(file);
+					// apply the filler to the lines from the document
 					filler.predict(query, lines, file);
 					file = corpus.next();
 				}
 				
+				// Print out the answer
 				if (query.answers.containsKey(RegexBirthdateFiller.slotName)) {
+					// The output file format
 					// Column 1: query id
 					// Column 2: the slot name
 					// Column 3: a unique run id for the submission
@@ -94,20 +97,21 @@ public class Assignment1 {
 							.get(RegexBirthdateFiller.slotName);
 					answersString.append(String.format("%s\t%s\t%s\t%s\t%s\n",
 							query.queryId, RegexBirthdateFiller.slotName,
-							"RegexBirthdateBaseline", ans.doc, ans.answer));
+							filler.getClass().getName(), ans.doc, ans.answer));
 				} else {
 					answersString.append(String.format("%s\t%s\t%s\t%s\t%s\n",
 							query.queryId, RegexBirthdateFiller.slotName,
-							"RegexBirthdateBaseline", "NIL", ""));
+							filler.getClass().getName(), "NIL", ""));
 				}
 			}
 			FileUtil.writeTextToFile(answersString.toString(),
-					"data/sf_predictions/sf.out");
+					SFConstants.outFile);
 		}
 		if (eval) {
+			// Evaluate against the gold standard labels
 			try {
 				// SFGold.getGoldFromAssessment();
-				SFScore.main(new String[] { "data/sf_predictions/sf.out",
+				SFScore.main(new String[] { SFConstants.outFile,
 						"data/sf.gold" });
 			} catch (IOException e) {
 				e.printStackTrace();

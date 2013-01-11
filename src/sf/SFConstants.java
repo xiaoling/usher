@@ -12,4 +12,10 @@ public class SFConstants {
 
 	public static final String goldFilePrefix = KbpConstants.rootPath
 			+ "TAC_2010_KBP_Assessment_Results_V1.1/data/";
+	
+	public static final String outFile = "data/sf_predictions/sf.out";
+	
+	public static final String[] sources = {"09nw", /*"10wb"*/};
+
+	public static final String[] dataTypes = {"meta","text", "tokens", "tokenSpans", "stanfordpos", "cj", "depsStanfordCCProcessed", "stanfordner"};
 }

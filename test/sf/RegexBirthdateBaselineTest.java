@@ -9,8 +9,8 @@ import org.junit.Test;
 
 import sf.SFEntity.SingleAnswer;
 import sf.filler.RegexBirthdateFiller;
-import sf.retriever.Corpus;
-import sf.retriever.FakeCorpus;
+import sf.retriever.raw.Corpus;
+import sf.retriever.raw.FakeCorpus;
 import tackbp.KbEntity.EntityType;
 import tackbp.RetrieveDocument;
 

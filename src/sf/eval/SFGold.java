@@ -5,7 +5,7 @@ import java.io.FilenameFilter;
 import java.util.HashSet;
 
 import sf.SFConstants;
-import util.io.FileUtil;
+import util.FileUtil;
 
 public class SFGold {
 	public static void getGoldFromAssessment() {

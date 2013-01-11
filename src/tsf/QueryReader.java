@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import util.io.FileUtil;
+import util.FileUtil;
 
 
 public class QueryReader {
