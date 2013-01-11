@@ -1,6 +1,6 @@
 package sf.filler;
 
-import java.util.List;
+import java.util.Map;
 
 import sf.SFEntity;
 
@@ -10,6 +10,5 @@ import sf.SFEntity;
  */
 
 public interface Filler {
-	public void predict(SFEntity mention, List<String> lines,
-			String filename);
+	public void predict(SFEntity mention, Map<String, String> annotations);
 }

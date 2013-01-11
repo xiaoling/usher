@@ -1,15 +1,14 @@
 import java.io.IOException;
 import java.util.List;
+import java.util.Map;
 
 import sf.SFConstants;
 import sf.SFEntity;
 import sf.SFEntity.SingleAnswer;
 import sf.eval.SFScore;
 import sf.filler.Filler;
-import sf.filler.RegexBirthdateBaselineTrueFileList;
 import sf.filler.RegexBirthdateFiller;
-import sf.retriever.raw.Corpus;
-import sf.retriever.raw.FakeCorpus;
+import sf.retriever.ProcessedCorpus;
 import tackbp.RetrieveDocument;
 import util.FileUtil;
 
@@ -67,21 +66,23 @@ public class Assignment1 {
 				// initialize the corpus
 				// FIXME replace the list by a generic class with an input of slot
 				// name and an output of all the relevant files from the answer file
-				Corpus corpus = new FakeCorpus(
-						RegexBirthdateBaselineTrueFileList.files);
-				String file = null;
-				int c = 0;
-				while (corpus.hasNext()) {
-					file = corpus.next();
-					if (c++ % 1000 == 0) {
-						System.out.print("finished reading " + c + " articles\r");
+				ProcessedCorpus corpus;
+				try {
+					corpus = new ProcessedCorpus();
+					Map<String, String> annotations = null;
+					int c = 0;
+					while (corpus.hasNext()) {
+						annotations = corpus.next();
+						if (c++ % 1000 == 0) {
+							System.out.print("finished reading " + c + " lines\r");
+						}
+						// apply the filler to the sentences with its annotations
+						filler.predict(query, annotations);
 					}
-					file = file.replace(".sgm", "");
-					List<String> lines = RetrieveDocument.getContent(file);
-					// apply the filler to the lines from the document
-					filler.predict(query, lines, file);
-					file = corpus.next();
+				} catch (Exception e) {
+					e.printStackTrace();
 				}
+				
 				
 				// Print out the answer
 				if (query.answers.containsKey(RegexBirthdateFiller.slotName)) {
