@@ -62,6 +62,7 @@ public class Assignment1 {
 			Filler filler = new RegexBirthdateFiller();
 
 			StringBuilder answersString = new StringBuilder();
+			int idxQuery = 0;
 			for (SFEntity query : queryReader.queryList) {
 				// initialize the corpus
 				// FIXME replace the list by a generic class with an input of slot
@@ -74,7 +75,7 @@ public class Assignment1 {
 					while (corpus.hasNext()) {
 						annotations = corpus.next();
 						if (c++ % 1000 == 0) {
-							System.out.print("finished reading " + c + " lines\r");
+							System.out.print("finished reading " + c + " lines for the "+idxQuery+"-th query\r");
 						}
 						// apply the filler to the sentences with its annotations
 						filler.predict(query, annotations);
@@ -107,6 +108,7 @@ public class Assignment1 {
 			}
 			FileUtil.writeTextToFile(answersString.toString(),
 					SFConstants.outFile);
+			idxQuery++;
 		}
 		if (eval) {
 			// Evaluate against the gold standard labels

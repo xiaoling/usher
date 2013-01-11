@@ -129,5 +129,4 @@ public class ProcessedCorpus implements Iterator<Map<String, String>> {
 	public void remove() {
 		throw new UnsupportedOperationException();
 	}
-
 }
