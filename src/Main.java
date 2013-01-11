@@ -1,14 +1,14 @@
 import java.io.IOException;
 import java.util.List;
 
-import sf.Corpus;
-import sf.FakeCorpus;
-import sf.RegexBirthdateBaseline;
-import sf.RegexBirthdateBaselineTrueFileList;
 import sf.SFConstants;
-import sf.SFEntityMention;
-import sf.SFEntityMention.SingleAnswer;
-import sf.SFScore;
+import sf.SFEntity;
+import sf.SFEntity.SingleAnswer;
+import sf.eval.SFScore;
+import sf.filler.RegexBirthdateFiller;
+import sf.filler.RegexBirthdateBaselineTrueFileList;
+import sf.retriever.Corpus;
+import sf.retriever.FakeCorpus;
 import tackbp.KB;
 import tackbp.RetrieveDocument;
 import util.io.FileUtil;
@@ -42,9 +42,9 @@ public class Main {
 		}
 
 		if (run) {
-			sf.QueryReader qReader = new sf.QueryReader();
+			sf.query.QueryReader qReader = new sf.query.QueryReader();
 			qReader.readFrom(SFConstants.queryFile);
-			RegexBirthdateBaseline baseline = new RegexBirthdateBaseline();
+			RegexBirthdateFiller baseline = new RegexBirthdateFiller();
 //			Corpus corpus = new Corpus();
 			Corpus corpus = new FakeCorpus(RegexBirthdateBaselineTrueFileList.files);
 			String file = corpus.next();
@@ -55,7 +55,7 @@ public class Main {
 				}
 				file = file.replace(".sgm", "");
 				List<String> lines = RetrieveDocument.getContent(file);
-				for (SFEntityMention mention : qReader.queryList) {
+				for (SFEntity mention : qReader.queryList) {
 					baseline.predict(mention, lines, file);
 				}
 				file = corpus.next();
@@ -63,9 +63,9 @@ public class Main {
 
 			// System.out.println("baseline hit = " + baseline.hit);
 			StringBuilder sb = new StringBuilder();
-			for (SFEntityMention mention : qReader.queryList) {
+			for (SFEntity mention : qReader.queryList) {
 				if (mention.answers
-						.containsKey(RegexBirthdateBaseline.slotName)) {
+						.containsKey(RegexBirthdateFiller.slotName)) {
 					// Column 1: query id
 					// Column 2: the slot name
 					// Column 3: a unique run id for the submission
@@ -74,13 +74,13 @@ public class Main {
 					// which supports the slot value
 					// Column 5: a slot value
 					SingleAnswer ans = (SingleAnswer) mention.answers
-							.get(RegexBirthdateBaseline.slotName);
+							.get(RegexBirthdateFiller.slotName);
 					sb.append(String.format("%s\t%s\t%s\t%s\t%s\n",
-							mention.queryId, RegexBirthdateBaseline.slotName,
+							mention.queryId, RegexBirthdateFiller.slotName,
 							"RegexBirthdateBaseline", ans.doc, ans.answer));
 				} else {
 					sb.append(String.format("%s\t%s\t%s\t%s\t%s\n",
-							mention.queryId, RegexBirthdateBaseline.slotName,
+							mention.queryId, RegexBirthdateFiller.slotName,
 							"RegexBirthdateBaseline", "NIL", ""));
 				}
 			}

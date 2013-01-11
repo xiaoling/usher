@@ -7,7 +7,10 @@ import java.util.List;
 
 import org.junit.Test;
 
-import sf.SFEntityMention.SingleAnswer;
+import sf.SFEntity.SingleAnswer;
+import sf.filler.RegexBirthdateFiller;
+import sf.retriever.Corpus;
+import sf.retriever.FakeCorpus;
 import tackbp.KbEntity.EntityType;
 import tackbp.RetrieveDocument;
 
@@ -21,28 +24,28 @@ public class RegexBirthdateBaselineTest {
 	@Test
 	public void testPattern() {
 		// make up a query
-		sf.QueryReader qReader = new sf.QueryReader();
-		SFEntityMention sfm = new SFEntityMention();
+		sf.query.QueryReader qReader = new sf.query.QueryReader();
+		SFEntity sfm = new SFEntity();
 		sfm.mentionString = "Raul Castro";
 		sfm.queryId = "E00001";
 		sfm.entityType = EntityType.PER;
-		qReader.queryList = new ArrayList<SFEntityMention>();
+		qReader.queryList = new ArrayList<SFEntity>();
 		qReader.queryList.add(sfm);
 		
 		// scan a specified file
-		RegexBirthdateBaseline baseline = new RegexBirthdateBaseline();
+		RegexBirthdateFiller baseline = new RegexBirthdateFiller();
 		Corpus corpus = new FakeCorpus(new String[]{"XIN_ENG_20080224.0243.LDC2009T13.sgm"});
 		String file = corpus.next();
 		while (file != null) {
 			file = file.replace(".sgm", "");
 			List<String> lines = RetrieveDocument.getContent(file);
-			for (SFEntityMention mention : qReader.queryList) {
+			for (SFEntity mention : qReader.queryList) {
 				baseline.predict(mention, lines, file);
 			}
 			file = corpus.next();
 		}
 
-		assertEquals("June 3", qReader.queryList.get(0).answers.get(RegexBirthdateBaseline.slotName));
+		assertEquals("June 3", qReader.queryList.get(0).answers.get(RegexBirthdateFiller.slotName));
 		
 //		// System.out.println("baseline hit = " + baseline.hit);
 //		StringBuilder sb = new StringBuilder();

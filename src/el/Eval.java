@@ -29,6 +29,8 @@ public class Eval {
 						if (!items[1].startsWith("NIL")) {
 							pos++;
 						}
+						System.out.println("query = " + items2[0] + ", pred = "
+								+ items2[1] + ", label = " + items[1]);
 						fp++;
 					}
 				} else {

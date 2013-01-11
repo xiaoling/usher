@@ -1,9 +1,10 @@
-package sf;
+package sf.eval;
 
 import java.io.File;
 import java.io.FilenameFilter;
 import java.util.HashSet;
 
+import sf.SFConstants;
 import util.io.FileUtil;
 
 public class SFGold {

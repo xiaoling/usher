@@ -1,4 +1,4 @@
-package sf;
+package sf.eval;
 // Scorer for TAC KBP 2010 slot-filling task
 // author:  Ralph Grishman
 
