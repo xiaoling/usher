@@ -32,14 +32,14 @@ public class ProcessedCorpus implements Iterator<Map<String, String>> {
 		init();
 	}
 
-	String[] dataTypes = null;
+	protected String[] dataTypes = null;
 
-	Map<String, BufferedReader> dataReaders = null;
+	protected Map<String, BufferedReader> dataReaders = null;
 
-	Map<String, String> cur = null;
+	protected Map<String, String> cur = null;
 	
 	// caching the line when hasNext is called.
-	String cache = null;
+	protected String cache = null;
 
 	public void init() throws Exception {
 		dataReaders = new HashMap<String, BufferedReader>();
