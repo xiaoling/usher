@@ -28,7 +28,7 @@ public class RegexBirthdateFiller implements Filler {
 
 		// check if the entity is mentioned.
 		String tokens = annotations.get(SFConstants.TOKENS);
-		if (tokens.contains(mention.mentionString)) {
+		if (!tokens.contains(mention.mentionString)) {
 			return;
 		}
 
