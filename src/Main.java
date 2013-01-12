@@ -5,8 +5,8 @@ import sf.SFConstants;
 import sf.SFEntity;
 import sf.SFEntity.SingleAnswer;
 import sf.eval.SFScore;
-import sf.filler.RegexBirthdateBaselineTrueFileList;
 import sf.filler.RegexBirthdateFiller;
+import sf.retriever.RegexBirthdateBaselineTrueFileList;
 import sf.retriever.raw.Corpus;
 import sf.retriever.raw.FakeCorpus;
 import tackbp.KB;
@@ -19,12 +19,21 @@ import el.MilneNEL;
 
 public class Main {
 	public static void main(String[] args) {
-		if (args[0].equals("sf")) {
-			sf_main(args);
+		double[][] params = new double[50000][50000];
+		while (true) {
+			for (int i = 0; i < 50000; i ++) {
+				System.out.print(i+"iterations end\r");
+				for (int j = 0; j < 50000; j ++) {
+					params[i][j] = i+j;
+				}
+			}
 		}
-		if (args[0].equals("el")) {
-			el_main(args);
-		}
+//		if (args[0].equals("sf")) {
+//			sf_main(args);
+//		}
+//		if (args[0].equals("el")) {
+//			el_main(args);
+//		}
 	}
 
 	public static void sf_main(String[] args) {

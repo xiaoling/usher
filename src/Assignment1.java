@@ -1,6 +1,7 @@
 import java.io.IOException;
-import java.util.List;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 import sf.SFConstants;
 import sf.SFEntity;
@@ -9,7 +10,7 @@ import sf.eval.SFScore;
 import sf.filler.Filler;
 import sf.filler.RegexBirthdateFiller;
 import sf.retriever.ProcessedCorpus;
-import tackbp.RetrieveDocument;
+import sf.retriever.SFFileList;
 import util.FileUtil;
 
 /**
@@ -62,60 +63,84 @@ public class Assignment1 {
 			Filler filler = new RegexBirthdateFiller();
 
 			StringBuilder answersString = new StringBuilder();
-			int idxQuery = 0;
-			for (SFEntity query : queryReader.queryList) {
-				// initialize the corpus
-				// FIXME replace the list by a generic class with an input of slot
-				// name and an output of all the relevant files from the answer file
-				ProcessedCorpus corpus;
-				try {
-					corpus = new ProcessedCorpus();
-					Map<String, String> annotations = null;
-					int c = 0;
-					while (corpus.hasNext()) {
-						annotations = corpus.next();
-						if (c++ % 1000 == 0) {
-							System.out.print("finished reading " + c + " lines for the "+idxQuery+"-th query\r");
-						}
-						// apply the filler to the sentences with its annotations
-						filler.predict(query, annotations);
-					}
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-				
-				
-				// Print out the answer
-				if (query.answers.containsKey(RegexBirthdateFiller.slotName)) {
-					// The output file format
-					// Column 1: query id
-					// Column 2: the slot name
-					// Column 3: a unique run id for the submission
-					// Column 4: NIL, if the system believes no information is
-					// learnable for this slot. Or, a single docid
-					// which supports the slot value
-					// Column 5: a slot value
-					SingleAnswer ans = (SingleAnswer) query.answers
-							.get(RegexBirthdateFiller.slotName);
-					answersString.append(String.format("%s\t%s\t%s\t%s\t%s\n",
-							query.queryId, RegexBirthdateFiller.slotName,
-							filler.getClass().getName(), ans.doc, ans.answer));
-				} else {
-					answersString.append(String.format("%s\t%s\t%s\t%s\t%s\n",
-							query.queryId, RegexBirthdateFiller.slotName,
-							filler.getClass().getName(), "NIL", ""));
-				}
+			// initialize the corpus
+			// FIXME replace the list by a generic class with an input of slot
+			// name and an output of all the relevant files from the answer file
+			ProcessedCorpus corpus;
+			
+			// hack: prepare a small set of files for scanning 
+			// This saves running time.
+			Set<String> srcFileSet = new HashSet<String>();
+			for (String file: SFFileList/*RegexBirthdateBaselineTrueFileList*/.files) {
+				srcFileSet.add(file);
 			}
+			String debugString = "";
+			try {
+				corpus = new ProcessedCorpus();
+				Map<String, String> annotations = null;
+				int c = 0;
+				while (corpus.hasNext()) {
+					annotations = corpus.next();
+					if (c++ % 100000 == 0) {
+						System.err.print("finished reading " + c + " lines\r");
+					}
+					
+					// check if the file is in the src file set.
+					// if not, skip.
+					// prerequisite: meta 
+					String filename = annotations.get(SFConstants.META).split("\t")[2];
+					if (!srcFileSet.contains(filename)) {
+						continue;
+					}
+					
+					// for each query, find out if the slot can be filled
+					for (SFEntity query : queryReader.queryList) {
+						// apply the filler to the sentences with its
+						// annotations
+						debugString += annotations.get("tokens")+"\n";
+						filler.predict(query, annotations);
+
+						// Print out the answer
+						if (query.answers
+								.containsKey(RegexBirthdateFiller.slotName)) {
+							// The output file format
+							// Column 1: query id
+							// Column 2: the slot name
+							// Column 3: a unique run id for the submission
+							// Column 4: NIL, if the system believes no
+							// information is
+							// learnable for this slot. Or, a single docid
+							// which supports the slot value
+							// Column 5: a slot value
+							SingleAnswer ans = (SingleAnswer) query.answers
+									.get(RegexBirthdateFiller.slotName);
+							answersString.append(String.format(
+									"%s\t%s\t%s\t%s\t%s\n", query.queryId,
+									RegexBirthdateFiller.slotName, filler
+											.getClass().getName(), ans.doc,
+									ans.answer));
+						} else {
+							answersString.append(String.format(
+									"%s\t%s\t%s\t%s\t%s\n", query.queryId,
+									RegexBirthdateFiller.slotName, filler
+											.getClass().getName(), "NIL", ""));
+						}
+					}
+
+				}
+				System.out.println(debugString);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+
 			FileUtil.writeTextToFile(answersString.toString(),
 					SFConstants.outFile);
-			idxQuery++;
 		}
 		if (eval) {
 			// Evaluate against the gold standard labels
 			try {
 				// SFGold.getGoldFromAssessment();
-				SFScore.main(new String[] { SFConstants.outFile,
-						"data/sf.gold" });
+				SFScore.main(new String[] { SFConstants.outFile, "data/sf.gold" });
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

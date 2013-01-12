@@ -96,7 +96,6 @@ public class ProcessedCorpus implements Iterator<Map<String, String>> {
 			} else {
 				return true;
 			}
-			
 		}
 	}
 
