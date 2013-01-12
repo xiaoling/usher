@@ -60,7 +60,7 @@ public class RegexBirthdateFiller implements Filler {
 			Matcher matcher = patternFullName.matcher(tokens);
 			if (matcher.find()) {
 				SFEntity.SingleAnswer ans = new SFEntity.SingleAnswer();
-				ans.answer = matcher.group(2);
+				ans.answer = matcher.group(2).trim();
 				ans.doc = filename;
 				mention.answers.put(slotName, ans);
 			}
@@ -70,7 +70,7 @@ public class RegexBirthdateFiller implements Filler {
 			Matcher matcher = patternFirstName.matcher(tokens);
 			if (matcher.find()) {
 				SFEntity.SingleAnswer ans = new SFEntity.SingleAnswer();
-				ans.answer = matcher.group(2);
+				ans.answer = matcher.group(2).trim();
 				ans.doc = filename;
 				mention.answers.put(slotName, ans);
 			}
@@ -80,7 +80,7 @@ public class RegexBirthdateFiller implements Filler {
 			Matcher matcher = patternLastName.matcher(tokens);
 			if (matcher.find()) {
 				SFEntity.SingleAnswer ans = new SFEntity.SingleAnswer();
-				ans.answer = matcher.group(2);
+				ans.answer = matcher.group(2).trim();
 				ans.doc = filename;
 				mention.answers.put(slotName, ans);
 			}

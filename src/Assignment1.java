@@ -92,12 +92,11 @@ public class Assignment1 {
 					if (!srcFileSet.contains(filename)) {
 						continue;
 					}
-					
+					debugString += annotations.get("tokens")+"\n";
 					// for each query, find out if the slot can be filled
 					for (SFEntity query : queryReader.queryList) {
 						// apply the filler to the sentences with its
 						// annotations
-						debugString += annotations.get("tokens")+"\n";
 						filler.predict(query, annotations);
 
 						// Print out the answer

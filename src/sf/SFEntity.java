@@ -39,6 +39,10 @@ public class SFEntity extends EntityMention {
 		// The documents from which the answers are extracted.
 		// The number of docs MUST be the same as the number of answers.
 		public List<String> listDocs = new ArrayList<String>();
+		@Override
+		public String toString() {
+			return listAnswers.toString();
+		}
 	}
 
 	public static class SingleAnswer extends Answer {
@@ -46,5 +50,9 @@ public class SFEntity extends EntityMention {
 		public String answer = null;
 		// The document from which the answer is extracted.
 		public String doc = null;
+		@Override
+		public String toString() {
+			return answer;
+		}
 	}
 }
