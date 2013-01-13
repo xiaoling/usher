@@ -1,7 +1,7 @@
 package sf;
 
 public class SlotType {
-	String[][] perSlotTypes = {{"per:alternate_names","Name","List"},
+	public static String[][] perSlotTypes = {{"per:alternate_names","Name","List"},
 			{"per:date_of_birth","Value","Single"},
 			{"per:age","Value","Single"},
 			{"per:country_of_birth","Name","Single"},
@@ -27,7 +27,7 @@ public class SlotType {
 			{"per:siblings","Name","List"},
 			{"per:other_family","Name","List"},
 			{"per:charges","Name","List"}};
-	String[][] orgSlotTypes = {{"org:alternate_names","Name","List"},
+	public static String[][] orgSlotTypes = {{"org:alternate_names","Name","List"},
 			{"org:political/religious_affiliation","Name","List"},
 			{"org:top_members/employees","Name","List"},
 			{"org:number_of_employees/members","Value","Single"},
@@ -43,5 +43,17 @@ public class SlotType {
 			{"org:city_of_headquarters","Name","Single"},
 			{"org:shareholders","Name","List"},
 			{"org:website","String","Single"}};
-
+	public static boolean isValidSlot(String slot) {
+		for (int i = 0; i < SlotType.orgSlotTypes.length; i++) {
+			if (SlotType.orgSlotTypes[i][0].equals(slot)) {
+				return true;
+			}
+		}
+		for (int i = 0; i < SlotType.perSlotTypes.length; i++) {
+			if (SlotType.perSlotTypes[i][0].equals(slot)) {
+				return true;
+			}
+		}
+		return false;
+	}
 }

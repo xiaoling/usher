@@ -5,7 +5,7 @@ import sf.SFConstants;
 import sf.SFEntity;
 import sf.SFEntity.SingleAnswer;
 import sf.eval.SFScore;
-import sf.filler.RegexBirthdateFiller;
+import sf.filler.regex.OldRegexBirthdateFiller;
 import sf.retriever.RegexBirthdateBaselineTrueFileList;
 import sf.retriever.raw.Corpus;
 import sf.retriever.raw.FakeCorpus;
@@ -19,21 +19,28 @@ import el.MilneNEL;
 
 public class Main {
 	public static void main(String[] args) {
-		double[][] params = new double[50000][50000];
-		while (true) {
-			for (int i = 0; i < 50000; i ++) {
-				System.out.print(i+"iterations end\r");
-				for (int j = 0; j < 50000; j ++) {
-					params[i][j] = i+j;
+		int size = 45000;
+		while (size > 0) {
+			try {
+				double[][] params = new double[size][size];
+				while (true) {
+					for (int i = 0; i < size; i++) {
+						System.out.print(i + "iterations end\r");
+						for (int j = 0; j < size; j++) {
+							params[i][j] = i + j;
+						}
+					}
 				}
+			} catch (Exception e) {
+				size -= 1000;
 			}
 		}
-//		if (args[0].equals("sf")) {
-//			sf_main(args);
-//		}
-//		if (args[0].equals("el")) {
-//			el_main(args);
-//		}
+		// if (args[0].equals("sf")) {
+		// sf_main(args);
+		// }
+		// if (args[0].equals("el")) {
+		// el_main(args);
+		// }
 	}
 
 	public static void sf_main(String[] args) {
@@ -53,9 +60,10 @@ public class Main {
 		if (run) {
 			sf.query.QueryReader qReader = new sf.query.QueryReader();
 			qReader.readFrom(SFConstants.queryFile);
-			RegexBirthdateFiller baseline = new RegexBirthdateFiller();
-//			Corpus corpus = new Corpus();
-			Corpus corpus = new FakeCorpus(RegexBirthdateBaselineTrueFileList.files);
+			OldRegexBirthdateFiller baseline = new OldRegexBirthdateFiller();
+			// Corpus corpus = new Corpus();
+			Corpus corpus = new FakeCorpus(
+					RegexBirthdateBaselineTrueFileList.files);
 			String file = corpus.next();
 			int c = 0;
 			while (file != null) {
@@ -73,8 +81,7 @@ public class Main {
 			// System.out.println("baseline hit = " + baseline.hit);
 			StringBuilder sb = new StringBuilder();
 			for (SFEntity mention : qReader.queryList) {
-				if (mention.answers
-						.containsKey(RegexBirthdateFiller.slotName)) {
+				if (mention.answers.containsKey(OldRegexBirthdateFiller.slotName)) {
 					// Column 1: query id
 					// Column 2: the slot name
 					// Column 3: a unique run id for the submission
@@ -83,13 +90,13 @@ public class Main {
 					// which supports the slot value
 					// Column 5: a slot value
 					SingleAnswer ans = (SingleAnswer) mention.answers
-							.get(RegexBirthdateFiller.slotName);
+							.get(OldRegexBirthdateFiller.slotName);
 					sb.append(String.format("%s\t%s\t%s\t%s\t%s\n",
-							mention.queryId, RegexBirthdateFiller.slotName,
+							mention.queryId, OldRegexBirthdateFiller.slotName,
 							"RegexBirthdateBaseline", ans.doc, ans.answer));
 				} else {
 					sb.append(String.format("%s\t%s\t%s\t%s\t%s\n",
-							mention.queryId, RegexBirthdateFiller.slotName,
+							mention.queryId, OldRegexBirthdateFiller.slotName,
 							"RegexBirthdateBaseline", "NIL", ""));
 				}
 			}
@@ -98,7 +105,7 @@ public class Main {
 		}
 		if (eval) {
 			try {
-//				SFGold.getGoldFromAssessment();
+				// SFGold.getGoldFromAssessment();
 				SFScore.main(new String[] { "data/sf_predictions/sf.out",
 						"data/sf.gold" });
 			} catch (IOException e) {
@@ -122,10 +129,10 @@ public class Main {
 		}
 		if (run) {
 			KB kb = new KB();
-//			kb.init();
+			// kb.init();
 			el.QueryReader qReader = new el.QueryReader();
 			qReader.readFrom(ElConstants.queryFile);
-//			StringMatchBaseline baseline = new StringMatchBaseline();
+			// StringMatchBaseline baseline = new StringMatchBaseline();
 			MilneNEL baseline = new MilneNEL();
 			for (EntityMention mention : qReader.queryList) {
 				baseline.predict(mention, kb);
@@ -134,8 +141,8 @@ public class Main {
 			for (EntityMention mention : qReader.queryList) {
 				sb.append(mention.queryId + "\t" + mention.entityId + "\n");
 			}
-//			FileUtil.writeTextToFile(sb.toString(),
-//					"data/el_predictions/el.out");
+			// FileUtil.writeTextToFile(sb.toString(),
+			// "data/el_predictions/el.out");
 		}
 		if (eval) {
 			System.out.println("Eval...");

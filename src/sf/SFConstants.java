@@ -29,8 +29,8 @@ public class SFConstants {
 	public static final String goldFilePrefix = KbpConstants.rootPath
 			+ "TAC_2010_KBP_Assessment_Results_V1.1/data/";
 	
-	public static final String outFile = "data/sf_predictions/sf.out";
-	
+	public static final String outFile = "data/sf.pred";
+	public static final String labelFile = "data/sf.gold"; 
 //	TODO allows multiple sources or concat them together?
 //	public static final String[] sources = {"09nw", /*"10wb"*/};
 

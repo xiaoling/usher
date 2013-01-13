@@ -9,6 +9,7 @@ import sf.SFEntity;
  * @author Xiao Ling
  */
 
-public interface Filler {
-	public void predict(SFEntity mention, Map<String, String> annotations);
+public abstract class Filler {
+	public String slotName = null;
+	public abstract void predict(SFEntity mention, Map<String, String> annotations);
 }
