@@ -59,7 +59,7 @@ public class ProcessedCorpus implements Iterator<Map<String, String>> {
 					cur.put(dataType, null);
 				} else {
 					throw new Exception("The data type [" + dataType
-							+ "] does not exist.");
+							+ "] does not exist. filename = "+filename);
 				}
 			} catch (UnsupportedEncodingException | FileNotFoundException e) {
 				e.printStackTrace();
