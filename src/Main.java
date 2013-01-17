@@ -5,7 +5,6 @@ import sf.SFConstants;
 import sf.SFEntity;
 import sf.SFEntity.SingleAnswer;
 import sf.eval.SFScore;
-import sf.filler.regex.OldRegexBirthdateFiller;
 import sf.retriever.RegexBirthdateBaselineTrueFileList;
 import sf.retriever.raw.Corpus;
 import sf.retriever.raw.FakeCorpus;
@@ -18,22 +17,36 @@ import el.Eval;
 import el.MilneNEL;
 
 public class Main {
-	public static void main(String[] args) {
-		int size = 45000;
-		while (size > 0) {
-			try {
-				double[][] params = new double[size][size];
-				while (true) {
-					for (int i = 0; i < size; i++) {
-						System.out.print(i + "iterations end\r");
-						for (int j = 0; j < size; j++) {
-							params[i][j] = i + j;
+	public static class HelloThread extends Thread {
+		int id = -1;
+		public HelloThread(int id) {
+			this.id = id;
+		}
+		public void run() {
+			System.out.println("thread "+id +" is on");
+			int size = 12000;
+			while (size > 0) {
+				try {
+					double[][] params = new double[size][size];
+					while (true) {
+						for (int i = 0; i < size; i++) {
+							System.out.print(i + "iterations end\r");
+							for (int j = 0; j < size; j++) {
+								params[i][j] = i + j;
+							}
 						}
 					}
+				} catch (Exception e) {
+					size -= 1000;
 				}
-			} catch (Exception e) {
-				size -= 1000;
 			}
+		}
+
+	}
+
+	public static void main(String[] args) {
+		for (int i = 0; i < 16; i ++) {
+		new HelloThread(i).start();
 		}
 		// if (args[0].equals("sf")) {
 		// sf_main(args);
