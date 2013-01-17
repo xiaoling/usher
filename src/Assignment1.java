@@ -14,7 +14,7 @@ import sf.retriever.SFFileList;
 import util.FileUtil;
 
 /**
- * CSE 454 Assignment 1 main class. Java 7 required.
+ * CSE 454 Assignment 1 main class. Tests passed under Java 7.
  * 
  * In the main method, a pipeline is run as follows: 1) Read the queries. 2) For
  * each query, retrieve relevant documents. In this assignment, only the
@@ -25,7 +25,7 @@ import util.FileUtil;
  * 
  * In this assignment, you only need to write a new class for the assigned slots
  * implementing the <code>sf.filler.Filler</code> interface. An example class on
- * birthdate is implemented in <code>sf.filler.RegexBirthdateFiller.java</code>.
+ * birthdate is implemented in <code>sf.filler.RegexPerDateOfBirthFiller.java</code>.
  * 
  * @author Xiao Ling
  */
