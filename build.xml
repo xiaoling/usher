@@ -1,6 +1,6 @@
 <project name="tkt" default="compile" basedir=".">
     <description>
-       xltools
+       tkt
     </description>
   <!-- set global properties for this build -->
   <property name="src" location="src"/>
@@ -24,9 +24,8 @@
   </target>
 	<target name="compress" description="Compression target" depends="compile">
 	        <jar jarfile="tkt.jar" basedir="bin" />
+		<jar jarfile="tkt-src.jar" basedir="src" />
 	  </target>
-   
-		
   
   <target name="clean"
         description="clean up" >

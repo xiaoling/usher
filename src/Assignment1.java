@@ -1,16 +1,13 @@
 import java.io.IOException;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 import sf.SFConstants;
 import sf.SFEntity;
 import sf.SFEntity.SingleAnswer;
 import sf.eval.SFScore;
 import sf.filler.Filler;
-import sf.filler.regex.RegexBirthdateFiller;
+import sf.filler.regex.RegexPerDateOfBirthFiller;
 import sf.retriever.ProcessedCorpus;
-import sf.retriever.SFFileList;
 import util.FileUtil;
 
 /**
@@ -53,7 +50,7 @@ public class Assignment1 {
 			queryReader.readFrom(SFConstants.queryFile);
 
 			// initialize the filler
-			Filler filler = new RegexBirthdateFiller();
+			Filler filler = new RegexPerDateOfBirthFiller();
 
 			StringBuilder answersString = new StringBuilder();
 			// initialize the corpus
@@ -61,13 +58,6 @@ public class Assignment1 {
 			// name and an output of all the relevant files from the answer file
 			ProcessedCorpus corpus;
 
-			// hack: prepare a small set of files for scanning
-			// This saves running time.
-			Set<String> srcFileSet = new HashSet<String>();
-			for (String file : SFFileList/* RegexBirthdateBaselineTrueFileList */.files) {
-				srcFileSet.add(file);
-			}
-			String debugString = "";
 			try {
 				corpus = new ProcessedCorpus();
 				Map<String, String> annotations = null;
@@ -78,15 +68,6 @@ public class Assignment1 {
 						System.err.print("finished reading " + c + " lines\r");
 					}
 
-					// check if the file is in the src file set.
-					// if not, skip.
-					// prerequisite: meta
-					String filename = annotations.get(SFConstants.META).split(
-							"\t")[2];
-					if (!srcFileSet.contains(filename)) {
-						continue;
-					}
-					debugString += annotations.get("tokens") + "\n";
 					// for each query, find out if the slot can be filled
 					for (SFEntity query : queryReader.queryList) {
 						// apply the filler to the sentences with its
@@ -121,16 +102,24 @@ public class Assignment1 {
 										.getClass().getName(), "NIL", ""));
 					}
 				}
-				System.out.println(debugString);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
-
 			FileUtil.writeTextToFile(answersString.toString(),
 					SFConstants.outFile);
 		}
 		if (eval) {
 			// Evaluate against the gold standard labels
+			// The label file format (11 fields):
+			// 1. NA
+			// 2. query id
+			// 3. NA
+			// 4. slot name
+			// 5. from which doc
+			// 6., 7., 8. NA
+			// 9. answer string
+			// 10. equiv. class for the answer in different strings
+			// 11. judgement. Correct ones are labeled as 1. 
 			try {
 				SFScore.main(new String[] { SFConstants.outFile, SFConstants.labelFile});
 			} catch (IOException e) {

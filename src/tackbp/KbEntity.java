@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Entity node in the kb
+ * Entity node in the KB
  * @author xiaoling
  *
  */
