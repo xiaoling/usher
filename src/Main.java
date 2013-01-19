@@ -5,7 +5,7 @@ import sf.SFConstants;
 import sf.SFEntity;
 import sf.SFEntity.SingleAnswer;
 import sf.eval.SFScore;
-import sf.filler.regex.OldRegexBirthdateFiller;
+import sf.filler.regex.RegexPerDateOfBirthFiller;
 import sf.retriever.RegexBirthdateBaselineTrueFileList;
 import sf.retriever.raw.Corpus;
 import sf.retriever.raw.FakeCorpus;
@@ -19,28 +19,12 @@ import el.MilneNEL;
 
 public class Main {
 	public static void main(String[] args) {
-		int size = 45000;
-		while (size > 0) {
-			try {
-				double[][] params = new double[size][size];
-				while (true) {
-					for (int i = 0; i < size; i++) {
-						System.out.print(i + "iterations end\r");
-						for (int j = 0; j < size; j++) {
-							params[i][j] = i + j;
-						}
-					}
-				}
-			} catch (Exception e) {
-				size -= 1000;
-			}
+		if (args[0].equals("sf")) {
+			sf_main(args);
 		}
-		// if (args[0].equals("sf")) {
-		// sf_main(args);
-		// }
-		// if (args[0].equals("el")) {
-		// el_main(args);
-		// }
+		if (args[0].equals("el")) {
+			el_main(args);
+		}
 	}
 
 	public static void sf_main(String[] args) {
@@ -60,7 +44,7 @@ public class Main {
 		if (run) {
 			sf.query.QueryReader qReader = new sf.query.QueryReader();
 			qReader.readFrom(SFConstants.queryFile);
-			OldRegexBirthdateFiller baseline = new OldRegexBirthdateFiller();
+			RegexPerDateOfBirthFiller filler = new RegexPerDateOfBirthFiller();
 			// Corpus corpus = new Corpus();
 			Corpus corpus = new FakeCorpus(
 					RegexBirthdateBaselineTrueFileList.files);
@@ -73,7 +57,7 @@ public class Main {
 				file = file.replace(".sgm", "");
 				List<String> lines = RetrieveDocument.getContent(file);
 				for (SFEntity mention : qReader.queryList) {
-					baseline.predict(mention, lines, file);
+//					filler.predict(mention, lines, file);
 				}
 				file = corpus.next();
 			}
@@ -81,7 +65,8 @@ public class Main {
 			// System.out.println("baseline hit = " + baseline.hit);
 			StringBuilder sb = new StringBuilder();
 			for (SFEntity mention : qReader.queryList) {
-				if (mention.answers.containsKey(OldRegexBirthdateFiller.slotName)) {
+				if (mention.answers
+						.containsKey(filler.slotName)) {
 					// Column 1: query id
 					// Column 2: the slot name
 					// Column 3: a unique run id for the submission
@@ -90,16 +75,20 @@ public class Main {
 					// which supports the slot value
 					// Column 5: a slot value
 					SingleAnswer ans = (SingleAnswer) mention.answers
-							.get(OldRegexBirthdateFiller.slotName);
+							.get(filler.slotName);
 					sb.append(String.format("%s\t%s\t%s\t%s\t%s\n",
-							mention.queryId, OldRegexBirthdateFiller.slotName,
+							mention.queryId, filler.slotName,
 							"RegexBirthdateBaseline", ans.doc, ans.answer));
 				} else {
 					sb.append(String.format("%s\t%s\t%s\t%s\t%s\n",
-							mention.queryId, OldRegexBirthdateFiller.slotName,
+							mention.queryId, filler.slotName,
 							"RegexBirthdateBaseline", "NIL", ""));
 				}
 			}
+			
+			sb.append(String.format("%s\t%s\t%s\t%s\t%s\n",
+					"SF209", "org:website",
+					"RegexBirthdateBaseline", "eng-WL-11-174576-129341", "a.com"));
 			FileUtil.writeTextToFile(sb.toString(),
 					"data/sf_predictions/sf.out");
 		}
