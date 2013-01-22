@@ -8,7 +8,7 @@ import sf.SFEntity;
 import sf.SFEntity.SingleAnswer;
 import sf.eval.SFScore;
 import sf.filler.Filler;
-import sf.filler.regex.RegexBirthdateFiller;
+import sf.filler.RegexBirthdateFiller;
 import sf.retriever.ProcessedCorpus;
 import sf.retriever.SFFileList;
 import util.FileUtil;

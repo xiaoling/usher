@@ -5,6 +5,7 @@ import sf.SFConstants;
 import sf.SFEntity;
 import sf.SFEntity.SingleAnswer;
 import sf.eval.SFScore;
+import sf.filler.RegexBirthdateFiller;
 import sf.retriever.RegexBirthdateBaselineTrueFileList;
 import sf.retriever.raw.Corpus;
 import sf.retriever.raw.FakeCorpus;
@@ -24,7 +25,7 @@ public class Main {
 		}
 		public void run() {
 			System.out.println("thread "+id +" is on");
-			int size = 12000;
+			int size = 12500;
 			while (size > 0) {
 				try {
 					double[][] params = new double[size][size];
@@ -73,7 +74,7 @@ public class Main {
 		if (run) {
 			sf.query.QueryReader qReader = new sf.query.QueryReader();
 			qReader.readFrom(SFConstants.queryFile);
-			OldRegexBirthdateFiller baseline = new OldRegexBirthdateFiller();
+			RegexBirthdateFiller baseline = new RegexBirthdateFiller();
 			// Corpus corpus = new Corpus();
 			Corpus corpus = new FakeCorpus(
 					RegexBirthdateBaselineTrueFileList.files);
@@ -94,7 +95,7 @@ public class Main {
 			// System.out.println("baseline hit = " + baseline.hit);
 			StringBuilder sb = new StringBuilder();
 			for (SFEntity mention : qReader.queryList) {
-				if (mention.answers.containsKey(OldRegexBirthdateFiller.slotName)) {
+				if (mention.answers.containsKey(RegexBirthdateFiller.slotName)) {
 					// Column 1: query id
 					// Column 2: the slot name
 					// Column 3: a unique run id for the submission
@@ -103,13 +104,13 @@ public class Main {
 					// which supports the slot value
 					// Column 5: a slot value
 					SingleAnswer ans = (SingleAnswer) mention.answers
-							.get(OldRegexBirthdateFiller.slotName);
+							.get(RegexBirthdateFiller.slotName);
 					sb.append(String.format("%s\t%s\t%s\t%s\t%s\n",
-							mention.queryId, OldRegexBirthdateFiller.slotName,
+							mention.queryId, RegexBirthdateFiller.slotName,
 							"RegexBirthdateBaseline", ans.doc, ans.answer));
 				} else {
 					sb.append(String.format("%s\t%s\t%s\t%s\t%s\n",
-							mention.queryId, OldRegexBirthdateFiller.slotName,
+							mention.queryId, RegexBirthdateFiller.slotName,
 							"RegexBirthdateBaseline", "NIL", ""));
 				}
 			}
