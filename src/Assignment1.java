@@ -1,4 +1,6 @@
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 import sf.SFConstants;
@@ -22,7 +24,8 @@ import util.FileUtil;
  * 
  * In this assignment, you only need to write a new class for the assigned slots
  * implementing the <code>sf.filler.Filler</code> interface. An example class on
- * birthdate is implemented in <code>sf.filler.RegexPerDateOfBirthFiller.java</code>.
+ * birthdate is implemented in
+ * <code>sf.filler.RegexPerDateOfBirthFiller.java</code>.
  * 
  * @author Xiao Ling
  */
@@ -50,7 +53,61 @@ public class Assignment1 {
 			queryReader.readFrom(SFConstants.queryFile);
 
 			// initialize the filler
-			Filler filler = new RegexPerDateOfBirthFiller();
+			List<Filler> fillers = new ArrayList<Filler>();
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.OrgCountryOfHeadquartersFiller")
+					.newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.OrgDissolvedFiller").newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.OrgFoundedFiller").newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.OrgNumberOfEmployeesFiller").newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller")
+					.newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.OrgWebsiteFiller").newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.PerCauseOfDeathFiller").newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.PerCountryOfBirthFiller2").newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.PerCountryOfBirthFiller").newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.PerDateOfDeathFiller2").newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.PerDateOfDeathFiller").newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.PerStateorprovinceOfDeathFiller")
+					.newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2")
+					.newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.RegexOrgCountryOfHeadquartersFiller")
+					.newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.RegexPerAgeFiller").newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.RegexPerCityOfBirthFiller").newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.RegexPerCountryOfBirthFiller")
+					.newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.RegexPerCountryOfBirth").newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.RegexPerCountryOfDeathFiller")
+					.newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.RegexPerDateOfBirthFiller").newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.RegexPerStateorprovinceOfBirthFiller")
+					.newInstance());
+			fillers.add((Filler) Class.forName(
+					"sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller")
+					.newInstance());
+			// Filler filler = new RegexPerDateOfBirthFiller();
 
 			StringBuilder answersString = new StringBuilder();
 			// initialize the corpus
@@ -72,34 +129,36 @@ public class Assignment1 {
 					for (SFEntity query : queryReader.queryList) {
 						// apply the filler to the sentences with its
 						// annotations
-						filler.predict(query, annotations);
+						for (Filler filler : fillers) {
+							filler.predict(query, annotations);
+						}
 					}
 				}
 				// for each query, print it out
 				for (SFEntity query : queryReader.queryList) {
 					// Print out the answer
-					if (query.answers
-							.containsKey(filler.slotName)) {
-						// The output file format
-						// Column 1: query id
-						// Column 2: the slot name
-						// Column 3: a unique run id for the submission
-						// Column 4: NIL, if the system believes no
-						// information is learnable for this slot. Or, 
-						// a single docid which supports the slot value
-						// Column 5: a slot value
-						SingleAnswer ans = (SingleAnswer) query.answers
-								.get(filler.slotName);
-						answersString.append(String.format(
-								"%s\t%s\t%s\t%s\t%s\n", query.queryId,
-								filler.slotName, filler
-										.getClass().getName(), ans.doc,
-								ans.answer));
-					} else {
-						answersString.append(String.format(
-								"%s\t%s\t%s\t%s\t%s\n", query.queryId,
-								filler.slotName, filler
-										.getClass().getName(), "NIL", ""));
+					for (Filler filler : fillers) {
+						if (query.answers.containsKey(filler.slotName)) {
+							// The output file format
+							// Column 1: query id
+							// Column 2: the slot name
+							// Column 3: a unique run id for the submission
+							// Column 4: NIL, if the system believes no
+							// information is learnable for this slot. Or,
+							// a single docid which supports the slot value
+							// Column 5: a slot value
+							SingleAnswer ans = (SingleAnswer) query.answers
+									.get(filler.slotName);
+							answersString.append(String.format(
+									"%s\t%s\t%s\t%s\t%s\n", query.queryId,
+									filler.slotName, filler.getClass()
+											.getName(), ans.doc, ans.answer));
+						} else {
+							answersString.append(String.format(
+									"%s\t%s\t%s\t%s\t%s\n", query.queryId,
+									filler.slotName, filler.getClass()
+											.getName(), "NIL", ""));
+						}
 					}
 				}
 			} catch (Exception e) {
@@ -119,9 +178,10 @@ public class Assignment1 {
 			// 6., 7., 8. NA
 			// 9. answer string
 			// 10. equiv. class for the answer in different strings
-			// 11. judgement. Correct ones are labeled as 1. 
+			// 11. judgement. Correct ones are labeled as 1.
 			try {
-				SFScore.main(new String[] { SFConstants.outFile, SFConstants.labelFile});
+				SFScore.main(new String[] { SFConstants.outFile,
+						SFConstants.labelFile });
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

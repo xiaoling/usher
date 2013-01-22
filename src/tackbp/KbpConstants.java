@@ -3,9 +3,9 @@ package tackbp;
 
 public class KbpConstants {
 	// the data folder. TODO CHANGE it if you mount the volume elsewhere.
-	public static String rootPath = "/kbp/data/";
+	public static String rootPath = "/projects/pardosa/s5/TACKBP/data/";
 	
-	public static final String processedDocPath = rootPath + "09nwa/";
+	public static final String processedDocPath = rootPath + "09nw/";
 	
 	// knowledge base
 	public static final String kbPath = KbpConstants.rootPath + "TAC09KBPEvalRefKB/data/";
