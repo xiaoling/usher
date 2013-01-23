@@ -1,100 +1,2200 @@
-SF200	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF201	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF202	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF203	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF204	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF205	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF206	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF207	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF208	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF209	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF210	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF211	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF212	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF213	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF214	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF215	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF216	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF217	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF218	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF219	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF220	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF221	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF222	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF223	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF224	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF225	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF226	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF227	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF228	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF229	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF230	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF231	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF232	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF233	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF234	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF235	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF236	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF237	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF238	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF239	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF240	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF241	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF242	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF243	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF244	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF245	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF246	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF247	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF248	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF249	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF250	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF251	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF252	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF253	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF254	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF255	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF256	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF257	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF258	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF259	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF260	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF261	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF262	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF263	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF264	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF265	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF266	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF267	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF268	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	XIN_ENG_20080224.0243.LDC2009T13	June 3
-SF269	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF270	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF271	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF272	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF273	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF274	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF275	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF276	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF277	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF278	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF279	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF280	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF281	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF282	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF283	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF284	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF285	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF286	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF287	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF288	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF289	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF290	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF291	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF292	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF293	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF294	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF295	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF296	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF297	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF298	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
-SF299	per:date_of_birth	sf.filler.regex.RegexBirthdateFiller	NIL	
+SF200	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF200	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF200	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF200	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF200	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF200	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF200	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF200	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF200	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF200	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF200	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF200	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF200	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF200	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF200	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF200	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF200	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF200	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF200	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF200	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF200	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF200	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF201	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF201	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF201	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF201	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF201	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF201	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF201	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF201	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	AFP_ENG_20081208.0084.LDC2009T13	Malawi
+SF201	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	AFP_ENG_20081208.0084.LDC2009T13	Malawi
+SF201	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF201	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF201	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF201	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF201	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF201	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF201	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF201	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	AFP_ENG_20081208.0084.LDC2009T13	Malawi
+SF201	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	AFP_ENG_20081208.0084.LDC2009T13	Malawi
+SF201	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF201	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF201	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF201	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF202	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF202	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF202	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF202	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF202	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF202	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF202	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF202	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF202	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF202	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF202	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF202	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF202	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF202	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF202	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF202	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF202	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF202	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF202	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF202	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF202	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF202	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF203	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF203	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF203	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF203	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF203	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF203	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF203	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF203	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF203	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF203	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF203	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF203	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF203	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF203	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF203	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF203	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF203	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF203	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF203	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF203	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF203	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF203	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF204	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF204	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF204	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF204	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF204	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF204	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF204	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF204	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF204	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF204	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF204	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF204	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF204	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF204	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF204	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF204	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF204	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF204	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF204	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF204	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF204	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF204	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF205	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF205	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF205	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF205	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF205	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF205	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF205	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF205	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF205	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF205	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF205	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF205	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF205	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF205	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF205	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF205	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF205	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF205	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF205	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF205	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF205	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF205	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF206	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF206	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF206	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF206	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF206	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF206	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF206	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF206	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF206	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF206	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF206	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF206	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF206	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF206	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF206	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF206	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF206	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF206	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF206	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF206	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF206	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF206	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF207	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF207	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF207	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF207	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF207	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF207	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF207	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF207	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF207	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF207	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF207	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF207	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF207	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF207	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF207	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF207	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF207	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF207	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF207	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF207	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF207	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF207	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF208	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF208	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF208	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF208	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF208	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF208	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF208	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF208	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF208	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF208	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF208	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF208	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF208	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF208	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF208	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF208	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF208	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF208	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF208	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF208	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF208	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF208	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF209	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF209	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF209	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF209	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF209	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF209	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF209	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF209	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF209	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF209	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF209	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF209	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF209	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF209	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF209	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF209	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF209	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF209	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF209	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF209	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF209	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF209	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF210	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20070720.0131.LDC2009T13	y
+SF210	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF210	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF210	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF210	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF210	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF210	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF210	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF210	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF210	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF210	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF210	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF210	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20070720.0131.LDC2009T13	y
+SF210	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20070720.0131.LDC2009T13	y
+SF210	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF210	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF210	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF210	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF210	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF210	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF210	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF210	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF211	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF211	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF211	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF211	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF211	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF211	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF211	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF211	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF211	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF211	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF211	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF211	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF211	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF211	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF211	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF211	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF211	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF211	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF211	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF211	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF211	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF211	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF212	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF212	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF212	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF212	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF212	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF212	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF212	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF212	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF212	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF212	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF212	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF212	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF212	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF212	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF212	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF212	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF212	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF212	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF212	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF212	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF212	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF212	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF213	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	AFP_ENG_20070130.0745.LDC2009T13	s
+SF213	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF213	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF213	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF213	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF213	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF213	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF213	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF213	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF213	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF213	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF213	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF213	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	AFP_ENG_20070130.0745.LDC2009T13	s
+SF213	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	AFP_ENG_20070130.0745.LDC2009T13	s
+SF213	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF213	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF213	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF213	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF213	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF213	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF213	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF213	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF214	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF214	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF214	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF214	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	AFP_ENG_20080315.0551.LDC2009T13	13
+SF214	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF214	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF214	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF214	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF214	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF214	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF214	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF214	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF214	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF214	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF214	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF214	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF214	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF214	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF214	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF214	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF214	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF214	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF215	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	APW_ENG_20070312.0452.LDC2009T13	l
+SF215	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF215	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF215	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF215	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF215	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF215	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF215	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF215	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF215	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF215	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF215	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF215	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	APW_ENG_20070312.0452.LDC2009T13	l
+SF215	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	APW_ENG_20070312.0452.LDC2009T13	l
+SF215	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF215	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF215	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF215	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF215	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF215	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF215	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF215	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF216	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF216	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF216	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF216	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF216	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF216	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF216	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF216	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF216	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF216	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF216	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF216	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF216	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF216	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF216	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF216	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF216	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF216	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF216	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF216	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF216	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF216	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF217	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	CNA_ENG_20080130.0029.LDC2009T13	-
+SF217	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF217	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF217	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF217	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	CNA_ENG_20070208.0024.LDC2009T13	joined
+SF217	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF217	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF217	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF217	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF217	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF217	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF217	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF217	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	CNA_ENG_20080130.0029.LDC2009T13	-
+SF217	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	CNA_ENG_20080130.0029.LDC2009T13	-
+SF217	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF217	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF217	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF217	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF217	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF217	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF217	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF217	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF218	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20081215.0153.LDC2009T13	e
+SF218	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF218	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF218	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF218	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF218	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF218	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF218	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF218	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF218	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF218	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF218	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF218	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20081215.0153.LDC2009T13	e
+SF218	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20081215.0153.LDC2009T13	e
+SF218	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF218	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF218	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF218	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF218	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF218	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF218	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF218	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF219	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20070530.0200.LDC2009T13	t
+SF219	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF219	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF219	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF219	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF219	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF219	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF219	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF219	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF219	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF219	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF219	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF219	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20070530.0200.LDC2009T13	t
+SF219	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20070530.0200.LDC2009T13	t
+SF219	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF219	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF219	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF219	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF219	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF219	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF219	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF219	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF220	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF220	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF220	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF220	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	AFP_ENG_20080812.0393.LDC2009T13	45
+SF220	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF220	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF220	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF220	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF220	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF220	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF220	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF220	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF220	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF220	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF220	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF220	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF220	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF220	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF220	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF220	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF220	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF220	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF221	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20070416.0005.LDC2009T13	America
+SF221	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF221	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF221	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	APW_ENG_20071014.0767.LDC2009T13	13
+SF221	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF221	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF221	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF221	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF221	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF221	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF221	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF221	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF221	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20070416.0005.LDC2009T13	America
+SF221	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20070416.0005.LDC2009T13	America
+SF221	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF221	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF221	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF221	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF221	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF221	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF221	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF221	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF222	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20071205.0211.LDC2009T13	y
+SF222	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF222	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF222	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF222	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	LTW_ENG_20080915.0051.LDC2009T13	Calif.
+SF222	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF222	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF222	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF222	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF222	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF222	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF222	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF222	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20071205.0211.LDC2009T13	y
+SF222	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20071205.0211.LDC2009T13	y
+SF222	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF222	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF222	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF222	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF222	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF222	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF222	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF222	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF223	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20080909.0136.LDC2009T13	Angola
+SF223	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF223	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF223	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF223	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF223	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF223	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF223	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF223	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF223	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF223	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF223	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF223	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20080909.0136.LDC2009T13	Angola
+SF223	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20080909.0136.LDC2009T13	Angola
+SF223	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF223	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF223	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF223	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF223	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF223	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF223	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF223	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF224	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20070224.0033.LDC2009T13	U.S.
+SF224	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF224	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF224	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF224	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF224	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF224	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF224	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF224	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF224	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF224	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF224	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF224	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20070224.0033.LDC2009T13	U.S.
+SF224	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20070224.0033.LDC2009T13	U.S.
+SF224	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF224	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF224	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF224	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF224	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF224	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF224	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF224	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF225	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20070830.0258.LDC2009T13	,
+SF225	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF225	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF225	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF225	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF225	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF225	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF225	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF225	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF225	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF225	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF225	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF225	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20070830.0258.LDC2009T13	,
+SF225	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20070830.0258.LDC2009T13	,
+SF225	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF225	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF225	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF225	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF225	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF225	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF225	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF225	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF226	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20070621.0127.LDC2009T13	n
+SF226	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF226	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF226	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF226	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF226	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF226	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF226	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF226	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF226	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF226	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF226	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF226	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20070621.0127.LDC2009T13	n
+SF226	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20070621.0127.LDC2009T13	n
+SF226	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF226	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF226	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF226	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF226	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF226	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF226	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF226	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF227	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20080831.0008.LDC2009T13	l
+SF227	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF227	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF227	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF227	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF227	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF227	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF227	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF227	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF227	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF227	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF227	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF227	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20080831.0008.LDC2009T13	l
+SF227	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20080831.0008.LDC2009T13	l
+SF227	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF227	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF227	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF227	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF227	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF227	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF227	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF227	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF228	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20070215.0017.LDC2009T13	d
+SF228	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF228	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF228	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF228	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	AFP_ENG_20070523.0369.LDC2009T13	Colorado
+SF228	org:website	sf.filler.regex.OrgWebsiteFiller	APW_ENG_20080717.1155.LDC2009T13	http://www.prorodeo.com
+SF228	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF228	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF228	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF228	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF228	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF228	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF228	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20070215.0017.LDC2009T13	d
+SF228	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20070215.0017.LDC2009T13	d
+SF228	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF228	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF228	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF228	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF228	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF228	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF228	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF228	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF229	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20081101.0086.LDC2009T13	U.S.
+SF229	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF229	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF229	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF229	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF229	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF229	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF229	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF229	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF229	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF229	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF229	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF229	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20081101.0086.LDC2009T13	U.S.
+SF229	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20081101.0086.LDC2009T13	U.S.
+SF229	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF229	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF229	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF229	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF229	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF229	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF229	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF229	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF230	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20080820.0142.LDC2009T13	U.S.
+SF230	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF230	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF230	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF230	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF230	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF230	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF230	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF230	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF230	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF230	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF230	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF230	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20080820.0142.LDC2009T13	U.S.
+SF230	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20080820.0142.LDC2009T13	U.S.
+SF230	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF230	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF230	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF230	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF230	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF230	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF230	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF230	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF231	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF231	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF231	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF231	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF231	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF231	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF231	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF231	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	APW_ENG_20070706.0622.LDC2009T13	England
+SF231	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	APW_ENG_20070706.0622.LDC2009T13	England
+SF231	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF231	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF231	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF231	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF231	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF231	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF231	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF231	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	APW_ENG_20070706.0622.LDC2009T13	England
+SF231	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	APW_ENG_20070706.0622.LDC2009T13	England
+SF231	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF231	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF231	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF231	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF232	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20070327.0226.LDC2009T13	t
+SF232	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF232	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF232	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF232	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF232	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF232	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF232	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF232	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF232	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF232	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF232	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF232	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20070327.0226.LDC2009T13	t
+SF232	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20070327.0226.LDC2009T13	t
+SF232	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF232	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF232	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF232	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF232	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF232	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF232	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF232	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF233	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20070112.0037.LDC2009T13	America
+SF233	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF233	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF233	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF233	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF233	org:website	sf.filler.regex.OrgWebsiteFiller	APW_ENG_20071211.0156.LDC2009T13	http://www.sipiapa.com
+SF233	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF233	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF233	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF233	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF233	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF233	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF233	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20070112.0037.LDC2009T13	America
+SF233	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20070112.0037.LDC2009T13	America
+SF233	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF233	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF233	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF233	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF233	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF233	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF233	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF233	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF234	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20070406.0114.LDC2009T13	s
+SF234	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF234	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF234	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF234	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF234	org:website	sf.filler.regex.OrgWebsiteFiller	NYT_ENG_20070410.0163.LDC2009T13	www.jacksonhewitt.com
+SF234	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF234	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF234	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF234	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF234	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF234	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF234	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20070406.0114.LDC2009T13	s
+SF234	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20070406.0114.LDC2009T13	s
+SF234	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF234	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF234	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF234	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF234	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF234	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF234	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF234	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF235	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20080304.0092.LDC2009T13	g
+SF235	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF235	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF235	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	APW_ENG_20071106.0071.LDC2009T13	70
+SF235	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	APW_ENG_20081020.0873.LDC2009T13	Missouri
+SF235	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF235	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF235	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF235	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF235	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF235	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF235	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF235	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20080304.0092.LDC2009T13	g
+SF235	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20080304.0092.LDC2009T13	g
+SF235	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF235	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF235	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF235	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF235	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF235	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF235	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF235	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF236	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20071016.0076.LDC2009T13	l
+SF236	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF236	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF236	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF236	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF236	org:website	sf.filler.regex.OrgWebsiteFiller	NYT_ENG_20070924.0030.LDC2009T13	www.nmfa.org
+SF236	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF236	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF236	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF236	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF236	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF236	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF236	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20071016.0076.LDC2009T13	l
+SF236	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20071016.0076.LDC2009T13	l
+SF236	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF236	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF236	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF236	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF236	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF236	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF236	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF236	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF237	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20080429.0226.LDC2009T13	t
+SF237	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF237	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF237	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF237	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF237	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF237	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF237	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF237	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF237	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF237	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF237	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF237	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20080429.0226.LDC2009T13	t
+SF237	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20080429.0226.LDC2009T13	t
+SF237	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF237	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF237	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF237	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF237	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF237	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF237	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF237	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF238	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20070925.0158.LDC2009T13	s
+SF238	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF238	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF238	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF238	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF238	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF238	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF238	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF238	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF238	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF238	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF238	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF238	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20070925.0158.LDC2009T13	s
+SF238	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20070925.0158.LDC2009T13	s
+SF238	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF238	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF238	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF238	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF238	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF238	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF238	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF238	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF239	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	APW_ENG_20081211.1234.LDC2009T13	Myanmar
+SF239	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF239	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF239	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF239	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF239	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF239	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF239	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF239	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF239	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF239	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF239	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF239	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	APW_ENG_20081211.1234.LDC2009T13	Myanmar
+SF239	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	APW_ENG_20081211.1234.LDC2009T13	Myanmar
+SF239	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF239	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF239	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF239	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF239	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF239	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF239	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF239	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF240	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	LTW_ENG_20081028.0036.LDC2009T13	,
+SF240	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF240	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF240	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF240	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF240	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF240	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF240	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF240	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF240	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF240	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF240	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF240	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	LTW_ENG_20081028.0036.LDC2009T13	,
+SF240	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	LTW_ENG_20081028.0036.LDC2009T13	,
+SF240	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF240	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF240	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF240	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF240	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF240	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF240	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF240	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF241	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF241	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF241	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF241	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF241	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF241	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF241	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF241	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF241	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF241	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF241	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF241	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF241	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF241	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF241	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF241	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF241	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF241	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF241	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF241	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF241	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF241	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF242	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	APW_ENG_20071029.0283.LDC2009T13	Japan
+SF242	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF242	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF242	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	LTW_ENG_20070413.0066.LDC2009T13	3,200
+SF242	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF242	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF242	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF242	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF242	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF242	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF242	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF242	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF242	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	APW_ENG_20071029.0283.LDC2009T13	Japan
+SF242	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	APW_ENG_20071029.0283.LDC2009T13	Japan
+SF242	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF242	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF242	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF242	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF242	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF242	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF242	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF242	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF243	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	APW_ENG_20080401.0527.LDC2009T13	d
+SF243	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF243	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF243	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF243	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF243	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF243	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF243	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF243	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF243	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF243	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF243	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF243	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	APW_ENG_20080401.0527.LDC2009T13	d
+SF243	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	APW_ENG_20080401.0527.LDC2009T13	d
+SF243	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF243	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF243	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF243	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF243	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF243	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF243	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF243	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF244	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF244	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF244	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF244	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF244	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF244	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF244	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF244	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF244	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF244	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF244	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF244	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF244	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF244	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF244	per:age	sf.filler.regex.RegexPerAgeFiller	APW_ENG_20070209.0173.LDC2009T13	4
+SF244	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF244	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF244	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF244	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF244	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF244	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF244	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF245	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF245	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF245	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF245	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF245	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF245	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF245	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF245	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF245	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF245	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF245	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF245	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF245	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF245	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF245	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF245	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF245	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF245	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF245	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF245	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF245	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF245	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF246	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF246	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF246	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF246	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF246	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF246	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF246	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF246	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF246	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF246	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF246	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF246	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF246	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF246	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF246	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF246	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF246	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF246	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF246	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF246	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF246	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF246	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF247	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	APW_ENG_20070813.0144.LDC2009T13	e
+SF247	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF247	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF247	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF247	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	APW_ENG_20070225.0182.LDC2009T13	Surayud
+SF247	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF247	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF247	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF247	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF247	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF247	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF247	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF247	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	APW_ENG_20070813.0144.LDC2009T13	e
+SF247	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	APW_ENG_20070813.0144.LDC2009T13	e
+SF247	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF247	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF247	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF247	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF247	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF247	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF247	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF247	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF248	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF248	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF248	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF248	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF248	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF248	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF248	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF248	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	APW_ENG_20071214.0118.LDC2009T13	New
+SF248	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	APW_ENG_20071214.0118.LDC2009T13	New
+SF248	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF248	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF248	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF248	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF248	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF248	per:age	sf.filler.regex.RegexPerAgeFiller	APW_ENG_20080118.0072.LDC2009T13	5
+SF248	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	APW_ENG_20071214.0118.LDC2009T13	Talk show host and New Orleans
+SF248	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	APW_ENG_20071214.0118.LDC2009T13	New
+SF248	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	APW_ENG_20071214.0118.LDC2009T13	New
+SF248	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF248	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF248	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF248	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF249	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20080319.0128.LDC2009T13	m
+SF249	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF249	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF249	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	AFP_ENG_20080315.0551.LDC2009T13	13
+SF249	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF249	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF249	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF249	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF249	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF249	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF249	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF249	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF249	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20080319.0128.LDC2009T13	m
+SF249	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20080319.0128.LDC2009T13	m
+SF249	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF249	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF249	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF249	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF249	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF249	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF249	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF249	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF250	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20070201.0299.LDC2009T13	d
+SF250	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF250	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF250	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF250	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF250	org:website	sf.filler.regex.OrgWebsiteFiller	APW_ENG_20080912.0454.LDC2009T13	http://www.ncdp.mailman.columbia.edu
+SF250	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF250	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF250	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF250	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF250	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF250	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF250	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20070201.0299.LDC2009T13	d
+SF250	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20070201.0299.LDC2009T13	d
+SF250	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF250	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF250	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF250	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF250	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF250	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF250	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF250	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF251	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20071001.0094.LDC2009T13	n
+SF251	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF251	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF251	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NYT_ENG_20070215.0121.LDC2009T13	12,000
+SF251	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF251	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF251	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF251	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF251	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF251	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF251	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF251	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF251	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20071001.0094.LDC2009T13	n
+SF251	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20071001.0094.LDC2009T13	n
+SF251	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF251	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF251	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF251	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF251	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF251	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF251	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF251	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF252	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20070608.0009.LDC2009T13	s
+SF252	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF252	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF252	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF252	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF252	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF252	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF252	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF252	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF252	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF252	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF252	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF252	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20070608.0009.LDC2009T13	s
+SF252	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20070608.0009.LDC2009T13	s
+SF252	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF252	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF252	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF252	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF252	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF252	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF252	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF252	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF253	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF253	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF253	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF253	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF253	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF253	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF253	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF253	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF253	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF253	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF253	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF253	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF253	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF253	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF253	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF253	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF253	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF253	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF253	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF253	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF253	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF253	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF254	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	APW_ENG_20071105.0022.LDC2009T13	s
+SF254	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF254	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF254	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF254	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF254	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF254	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF254	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF254	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF254	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF254	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF254	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF254	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	APW_ENG_20071105.0022.LDC2009T13	s
+SF254	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	APW_ENG_20071105.0022.LDC2009T13	s
+SF254	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF254	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF254	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF254	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF254	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF254	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF254	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF254	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF255	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	XIN_ENG_20080903.0308.LDC2009T13	s
+SF255	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF255	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF255	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF255	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF255	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF255	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF255	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF255	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF255	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF255	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF255	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF255	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	XIN_ENG_20080903.0308.LDC2009T13	s
+SF255	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	XIN_ENG_20080903.0308.LDC2009T13	s
+SF255	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF255	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF255	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF255	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF255	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF255	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF255	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF255	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF256	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20080701.0237.LDC2009T13	U.S.
+SF256	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF256	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF256	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF256	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	APW_ENG_20080519.0269.LDC2009T13	Illinois
+SF256	org:website	sf.filler.regex.OrgWebsiteFiller	APW_ENG_20080701.0070.LDC2009T13	http://www.itw.com/
+SF256	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF256	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF256	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF256	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF256	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF256	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF256	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20080701.0237.LDC2009T13	U.S.
+SF256	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20080701.0237.LDC2009T13	U.S.
+SF256	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF256	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF256	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF256	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF256	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF256	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF256	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF256	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF257	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	APW_ENG_20070307.1203.LDC2009T13	l
+SF257	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF257	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF257	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	APW_ENG_20070222.1417.LDC2009T13	1,250
+SF257	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	APW_ENG_20070119.1579.LDC2009T13	which
+SF257	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF257	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF257	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF257	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF257	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF257	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF257	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF257	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	APW_ENG_20070307.1203.LDC2009T13	l
+SF257	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	APW_ENG_20070307.1203.LDC2009T13	l
+SF257	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF257	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF257	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF257	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF257	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF257	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF257	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF257	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF258	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	AFP_ENG_20081111.0575.LDC2009T13	s
+SF258	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF258	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF258	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF258	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF258	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF258	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF258	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF258	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF258	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF258	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF258	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF258	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	AFP_ENG_20081111.0575.LDC2009T13	s
+SF258	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	AFP_ENG_20081111.0575.LDC2009T13	s
+SF258	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF258	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF258	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF258	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF258	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF258	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF258	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF258	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF259	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20070224.0139.LDC2009T13	s
+SF259	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF259	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF259	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF259	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF259	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF259	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF259	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF259	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF259	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF259	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF259	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF259	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20070224.0139.LDC2009T13	s
+SF259	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20070224.0139.LDC2009T13	s
+SF259	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF259	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF259	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF259	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF259	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF259	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF259	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF259	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF260	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20070917.0134.LDC2009T13	U.S.
+SF260	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF260	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF260	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NYT_ENG_20070215.0121.LDC2009T13	12,000
+SF260	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF260	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF260	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF260	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF260	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF260	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF260	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF260	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF260	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20070917.0134.LDC2009T13	U.S.
+SF260	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20070917.0134.LDC2009T13	U.S.
+SF260	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF260	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF260	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF260	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF260	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF260	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF260	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF260	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF261	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20080522.0276.LDC2009T13	s
+SF261	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF261	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF261	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF261	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF261	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF261	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF261	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF261	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF261	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF261	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF261	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF261	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20080522.0276.LDC2009T13	s
+SF261	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20080522.0276.LDC2009T13	s
+SF261	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF261	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF261	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF261	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF261	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF261	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF261	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF261	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF262	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	CNA_ENG_20080523.0047.LDC2009T13	Taiwan
+SF262	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF262	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF262	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF262	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	CNA_ENG_20080523.0047.LDC2009T13	and workers of the Noordhoff Craniofacial Foundation -LRB- NCF -RRB-
+SF262	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF262	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF262	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF262	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF262	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF262	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF262	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF262	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	CNA_ENG_20080523.0047.LDC2009T13	Taiwan
+SF262	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	CNA_ENG_20080523.0047.LDC2009T13	Taiwan
+SF262	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF262	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF262	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF262	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF262	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF262	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF262	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF262	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF263	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NYT_ENG_20081215.0115.LDC2009T13	e
+SF263	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF263	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF263	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF263	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	APW_ENG_20071211.0028.LDC2009T13	Missouri
+SF263	org:website	sf.filler.regex.OrgWebsiteFiller	NYT_ENG_20071102.0109.LDC2009T13	www.christmastree.org
+SF263	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF263	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF263	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF263	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF263	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF263	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF263	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NYT_ENG_20081215.0115.LDC2009T13	e
+SF263	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NYT_ENG_20081215.0115.LDC2009T13	e
+SF263	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF263	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF263	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF263	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF263	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF263	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF263	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF263	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF264	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	LTW_ENG_20080405.0067.LDC2009T13	g
+SF264	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF264	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF264	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NYT_ENG_20081216.0016.LDC2009T13	24
+SF264	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF264	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF264	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF264	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF264	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF264	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF264	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF264	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF264	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	LTW_ENG_20080405.0067.LDC2009T13	g
+SF264	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	LTW_ENG_20080405.0067.LDC2009T13	g
+SF264	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF264	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF264	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF264	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF264	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF264	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF264	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF264	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF265	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	APW_ENG_20070818.0184.LDC2009T13	d
+SF265	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF265	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF265	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF265	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	APW_ENG_20071018.1365.LDC2009T13	Pennsylvania
+SF265	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF265	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF265	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF265	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF265	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF265	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF265	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF265	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	APW_ENG_20070818.0184.LDC2009T13	d
+SF265	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	APW_ENG_20070818.0184.LDC2009T13	d
+SF265	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF265	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF265	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF265	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF265	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF265	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF265	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF265	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF266	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	AFP_ENG_20071130.0250.LDC2009T13	h
+SF266	org:dissolved	sf.filler.regex.OrgDissolvedFiller	APW_ENG_20070924.0640.LDC2009T13	1953 
+SF266	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF266	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	APW_ENG_20080201.1336.LDC2009T13	35,000
+SF266	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF266	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF266	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF266	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF266	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF266	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF266	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF266	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF266	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	AFP_ENG_20071130.0250.LDC2009T13	h
+SF266	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	AFP_ENG_20071130.0250.LDC2009T13	h
+SF266	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF266	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF266	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF266	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF266	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF266	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF266	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF266	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF267	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF267	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF267	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF267	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF267	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF267	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF267	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF267	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF267	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF267	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF267	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF267	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF267	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF267	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF267	per:age	sf.filler.regex.RegexPerAgeFiller	APW_ENG_20080912.0010.LDC2009T13	2
+SF267	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF267	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF267	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF267	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF267	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF267	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF267	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF268	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF268	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF268	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF268	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF268	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF268	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF268	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF268	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NYT_ENG_20080203.0034.LDC2009T13	Cuba
+SF268	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NYT_ENG_20080203.0034.LDC2009T13	Cuba
+SF268	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF268	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF268	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF268	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF268	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF268	per:age	sf.filler.regex.RegexPerAgeFiller	APW_ENG_20070619.1248.LDC2009T13	7
+SF268	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	XIN_ENG_20080224.0243.LDC2009T13	Oriente
+SF268	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NYT_ENG_20080203.0034.LDC2009T13	Cuba
+SF268	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NYT_ENG_20080203.0034.LDC2009T13	Cuba
+SF268	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF268	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	XIN_ENG_20080224.0243.LDC2009T13	June 3
+SF268	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	XIN_ENG_20080224.0243.LDC2009T13	Cuba 's Oriente Province
+SF268	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF269	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF269	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF269	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF269	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF269	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF269	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF269	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF269	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF269	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF269	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF269	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF269	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF269	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF269	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF269	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF269	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF269	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF269	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF269	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF269	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF269	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF269	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF270	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF270	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF270	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF270	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF270	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF270	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF270	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF270	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF270	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF270	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF270	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF270	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF270	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF270	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF270	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF270	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF270	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF270	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF270	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF270	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF270	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF270	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF271	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF271	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF271	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF271	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF271	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF271	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF271	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF271	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF271	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF271	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF271	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF271	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NYT_ENG_20081117.0114.LDC2009T13	Connecticut
+SF271	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF271	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF271	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF271	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF271	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF271	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF271	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF271	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NYT_ENG_20071012.0064.LDC2009T13	1944
+SF271	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF271	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NYT_ENG_20081117.0114.LDC2009T13	Connecticut
+SF272	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF272	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF272	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF272	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF272	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF272	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF272	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF272	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF272	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF272	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF272	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF272	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF272	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF272	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF272	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF272	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF272	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF272	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF272	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF272	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF272	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF272	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF273	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF273	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF273	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF273	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF273	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF273	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF273	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF273	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	LTW_ENG_20071113.0004.LDC2009T13	Brazil
+SF273	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	LTW_ENG_20071113.0004.LDC2009T13	Brazil
+SF273	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF273	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF273	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF273	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF273	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF273	per:age	sf.filler.regex.RegexPerAgeFiller	APW_ENG_20071214.0144.LDC2009T13	7
+SF273	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF273	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	LTW_ENG_20071113.0004.LDC2009T13	Brazil
+SF273	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	LTW_ENG_20071113.0004.LDC2009T13	Brazil
+SF273	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF273	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF273	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF273	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF274	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF274	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF274	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF274	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF274	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF274	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF274	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF274	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	APW_ENG_20070928.1363.LDC2009T13	Britain
+SF274	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	APW_ENG_20070928.1363.LDC2009T13	Britain
+SF274	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF274	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF274	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF274	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF274	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF274	per:age	sf.filler.regex.RegexPerAgeFiller	APW_ENG_20071005.0104.LDC2009T13	4
+SF274	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF274	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	APW_ENG_20070928.1363.LDC2009T13	Britain
+SF274	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	APW_ENG_20070928.1363.LDC2009T13	Britain
+SF274	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF274	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF274	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF274	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF275	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF275	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF275	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF275	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF275	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF275	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF275	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF275	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF275	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF275	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF275	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF275	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF275	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF275	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF275	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF275	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF275	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF275	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF275	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF275	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF275	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF275	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF276	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF276	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF276	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF276	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF276	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF276	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF276	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF276	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF276	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF276	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF276	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF276	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF276	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF276	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF276	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF276	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF276	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF276	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF276	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF276	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF276	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF276	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF277	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF277	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF277	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF277	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF277	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF277	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF277	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF277	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF277	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF277	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF277	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF277	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF277	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF277	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF277	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF277	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF277	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF277	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF277	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF277	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF277	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF277	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF278	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF278	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF278	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF278	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF278	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF278	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF278	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF278	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF278	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF278	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF278	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF278	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF278	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF278	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF278	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF278	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF278	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF278	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF278	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF278	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF278	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF278	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF279	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF279	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF279	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF279	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF279	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF279	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF279	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF279	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF279	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF279	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF279	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF279	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF279	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF279	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF279	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF279	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF279	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF279	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF279	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF279	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF279	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF279	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF280	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF280	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF280	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF280	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF280	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF280	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF280	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF280	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF280	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF280	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF280	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF280	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF280	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF280	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF280	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF280	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF280	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF280	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF280	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF280	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF280	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF280	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF281	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF281	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF281	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF281	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF281	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF281	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF281	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF281	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF281	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF281	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF281	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF281	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF281	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF281	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF281	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF281	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF281	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF281	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF281	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF281	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF281	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF281	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF282	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF282	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF282	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF282	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF282	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF282	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF282	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF282	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF282	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF282	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF282	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF282	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF282	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF282	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF282	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF282	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF282	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF282	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF282	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF282	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF282	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF282	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF283	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF283	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF283	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF283	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF283	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF283	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF283	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF283	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF283	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF283	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF283	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF283	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	APW_ENG_20071121.0087.LDC2009T13	New York
+SF283	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF283	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF283	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF283	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF283	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF283	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF283	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF283	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF283	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF283	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	APW_ENG_20071121.0087.LDC2009T13	New York
+SF284	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF284	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF284	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF284	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF284	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF284	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF284	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF284	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF284	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF284	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF284	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF284	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF284	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF284	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF284	per:age	sf.filler.regex.RegexPerAgeFiller	APW_ENG_20080726.0029.LDC2009T13	2
+SF284	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF284	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF284	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF284	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF284	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF284	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF284	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF285	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF285	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF285	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF285	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF285	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF285	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF285	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF285	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF285	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF285	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF285	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF285	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF285	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF285	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF285	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF285	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF285	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF285	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF285	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF285	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF285	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF285	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF286	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF286	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF286	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF286	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF286	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF286	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF286	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF286	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF286	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF286	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF286	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF286	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF286	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF286	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF286	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF286	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF286	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF286	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF286	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF286	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF286	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF286	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF287	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF287	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF287	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF287	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF287	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF287	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF287	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF287	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF287	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF287	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF287	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF287	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF287	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF287	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF287	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF287	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF287	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF287	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF287	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF287	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF287	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF287	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF288	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF288	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF288	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF288	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF288	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF288	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF288	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF288	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF288	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF288	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF288	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF288	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF288	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF288	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF288	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF288	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF288	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF288	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF288	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF288	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF288	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF288	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF289	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF289	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF289	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF289	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF289	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF289	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF289	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF289	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF289	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF289	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF289	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF289	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF289	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF289	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF289	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF289	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF289	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF289	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF289	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF289	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF289	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF289	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF290	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF290	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF290	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF290	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF290	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF290	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF290	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF290	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NYT_ENG_20070217.0023.LDC2009T13	Cuba
+SF290	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NYT_ENG_20070217.0023.LDC2009T13	Cuba
+SF290	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF290	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF290	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	APW_ENG_20080522.1537.LDC2009T13	Illinois
+SF290	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF290	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF290	per:age	sf.filler.regex.RegexPerAgeFiller	APW_ENG_20071016.1015.LDC2009T13	8
+SF290	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	XIN_ENG_20070110.0345.LDC2009T13	Sabaneta
+SF290	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NYT_ENG_20070217.0023.LDC2009T13	Cuba
+SF290	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NYT_ENG_20070217.0023.LDC2009T13	Cuba
+SF290	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF290	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NYT_ENG_20070217.0023.LDC2009T13	1954
+SF290	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF290	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	APW_ENG_20080522.1537.LDC2009T13	Illinois
+SF291	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF291	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF291	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF291	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF291	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF291	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF291	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF291	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF291	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF291	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF291	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF291	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF291	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF291	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF291	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF291	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF291	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF291	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF291	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF291	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF291	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF291	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF292	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF292	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF292	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF292	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF292	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF292	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF292	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF292	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF292	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF292	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF292	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF292	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF292	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF292	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF292	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF292	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF292	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF292	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF292	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF292	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF292	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF292	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF293	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF293	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF293	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF293	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF293	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF293	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF293	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF293	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	APW_ENG_20081208.1292.LDC2009T13	Malawi
+SF293	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	APW_ENG_20081208.1292.LDC2009T13	Malawi
+SF293	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF293	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF293	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF293	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF293	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF293	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF293	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	APW_ENG_20081208.1292.LDC2009T13	Malawi
+SF293	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	APW_ENG_20081208.1292.LDC2009T13	Malawi
+SF293	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	APW_ENG_20081208.1292.LDC2009T13	Malawi
+SF293	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF293	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF293	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF293	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF294	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF294	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF294	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF294	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF294	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF294	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF294	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF294	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF294	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF294	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF294	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF294	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF294	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF294	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF294	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF294	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF294	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF294	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF294	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF294	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF294	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF294	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF295	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF295	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF295	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF295	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF295	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF295	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF295	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF295	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	APW_ENG_20071021.0084.LDC2009T13	Iraq
+SF295	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	APW_ENG_20071021.0084.LDC2009T13	Iraq
+SF295	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF295	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF295	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF295	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF295	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF295	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF295	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF295	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	APW_ENG_20071021.0084.LDC2009T13	Iraq
+SF295	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	APW_ENG_20071021.0084.LDC2009T13	Iraq
+SF295	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF295	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF295	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF295	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF296	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF296	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF296	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF296	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF296	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF296	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF296	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF296	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF296	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF296	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF296	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF296	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF296	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF296	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF296	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF296	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF296	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF296	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF296	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF296	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF296	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF296	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF297	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF297	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF297	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF297	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF297	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF297	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF297	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF297	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF297	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF297	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF297	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF297	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF297	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF297	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF297	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF297	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF297	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF297	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF297	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF297	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF297	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF297	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF298	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF298	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF298	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF298	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF298	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF298	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF298	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF298	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF298	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF298	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF298	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF298	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF298	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF298	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF298	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF298	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF298	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF298	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF298	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF298	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF298	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF298	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	
+SF299	org:country_of_headquarters	sf.filler.regex.OrgCountryOfHeadquartersFiller	NIL	
+SF299	org:dissolved	sf.filler.regex.OrgDissolvedFiller	NIL	
+SF299	org:founded	sf.filler.regex.OrgFoundedFiller	NIL	
+SF299	org:number_of_employees/members	sf.filler.regex.OrgNumberOfEmployeesFiller	NIL	
+SF299	org:stateorprovince_of_headquarters	sf.filler.regex.OrgStateOrProvinceOfHeadquartersFiller	NIL	
+SF299	org:website	sf.filler.regex.OrgWebsiteFiller	NIL	
+SF299	per:cause_of_death	sf.filler.regex.PerCauseOfDeathFiller	NIL	
+SF299	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller2	NIL	
+SF299	per:country_of_birth	sf.filler.regex.PerCountryOfBirthFiller	NIL	
+SF299	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller2	NIL	
+SF299	per:date_of_death	sf.filler.regex.PerDateOfDeathFiller	NIL	
+SF299	per:stateorprovince_of_death	sf.filler.regex.PerStateorprovinceOfDeathFiller	NIL	
+SF299	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller2	NIL	
+SF299	org:country_of_headquarters	sf.filler.regex.RegexOrgCountryOfHeadquartersFiller	NIL	
+SF299	per:age	sf.filler.regex.RegexPerAgeFiller	NIL	
+SF299	per:city_of_birth	sf.filler.regex.RegexPerCityOfBirthFiller	NIL	
+SF299	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirthFiller	NIL	
+SF299	per:country_of_birth	sf.filler.regex.RegexPerCountryOfBirth	NIL	
+SF299	per:country_of_death	sf.filler.regex.RegexPerCountryOfDeathFiller	NIL	
+SF299	per:birth_of_date	sf.filler.regex.RegexPerDateOfBirthFiller	NIL	
+SF299	per:stateorprovince_of_birth	sf.filler.regex.RegexPerStateorprovinceOfBirthFiller	NIL	
+SF299	per:stateorprovince_of_death	sf.filler.regex.RegexPerStateOrProvinceOfDeathFiller	NIL	

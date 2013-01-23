@@ -164,6 +164,7 @@ public class Assignment1 {
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
+			System.out.println("writing answers");
 			FileUtil.writeTextToFile(answersString.toString(),
 					SFConstants.outFile);
 		}
@@ -179,9 +180,11 @@ public class Assignment1 {
 			// 9. answer string
 			// 10. equiv. class for the answer in different strings
 			// 11. judgement. Correct ones are labeled as 1.
+			System.out.println(SFConstants.outFile);
 			try {
 				SFScore.main(new String[] { SFConstants.outFile,
-						SFConstants.labelFile });
+						SFConstants.labelFile/*,  "anydoc", "nocase",
+						"slots=data/sf.allslots"*/ });
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
