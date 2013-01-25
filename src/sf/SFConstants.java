@@ -3,6 +3,8 @@ package sf;
 import tackbp.KbpConstants;
 
 public class SFConstants {
+	
+	// data types/extensions
 	public static final String STANFORDNER = "stanfordner";
 
 	public static final String DEPS_STANFORD_CC_PROCESSED = "depsStanfordCCProcessed";
@@ -19,22 +21,19 @@ public class SFConstants {
 
 	public static final String META = "meta";
 
-	public static final String queryFile = KbpConstants.rootPath
-			+ "TAC_2010_KBP_Evaluation_Slot_Filling_Queries/data/tac_2010_kbp_evaluation_slot_filling_queries.xml";
-
-	public static final String[] srcLists = {
-			KbpConstants.rootPath + "TAC10Source/nw_src.list",
-			KbpConstants.rootPath + "TAC10Source/wb_src.list" };
-
-	public static final String goldFilePrefix = KbpConstants.rootPath
-			+ "TAC_2010_KBP_Assessment_Results_V1.1/data/";
-	
-	public static final String outFile = "data/sf.pred";
-	public static final String labelFile = "data/sf.gold"; 
-//	TODO allows multiple sources or concat them together?
-//	public static final String[] sources = {"09nw", /*"10wb"*/};
-
+	// file prefix of the data files 
 	public static final String prefix = "sentences";
 	
+	// a default list of data types
 	public static final String[] dataTypes = {META,TEXT, TOKENS, TOKEN_SPANS, STANFORDPOS, CJ, DEPS_STANFORD_CC_PROCESSED, STANFORDNER};
+	
+	// slot filling queries
+	public static final String queryFile = KbpConstants.rootPath + "sf/tac_2010_kbp_evaluation_slot_filling_queries.xml";
+
+	// slot filling output file
+	public static final String outFile = KbpConstants.rootPath + "sf/sf.pred";
+	
+	public static final String labelFile = KbpConstants.rootPath + "sf/sf.gold"; 
+
+	
 }

@@ -10,19 +10,20 @@ import sf.filler.Filler;
 import tackbp.KbEntity.EntityType;
 
 /**
- * Needs "tokens", "meta",
- * @author xiaoling
- *
+ * CSE 454 - Assignment 1: Slot Filling
+ * @author James Lee
  */
-public class RegexPerDateOfBirthFiller extends Filler {
-	public RegexPerDateOfBirthFiller() {
-		slotName = "per:birth_of_date";
+public class OrgFoundedFiller extends Filler {
+
+	public OrgFoundedFiller() {
+		slotName = "org:founded";
 	}
+	
 	@Override
 	public void predict(SFEntity mention, Map<String, String> annotations) {
-		// the query needs to be a PER type.
+		// the query needs to be a ORG type.
 		if (mention.ignoredSlots.contains(slotName)
-				|| mention.entityType != EntityType.PER) {
+				|| mention.entityType != EntityType.ORG) {
 			return;
 		}
 
@@ -36,39 +37,20 @@ public class RegexPerDateOfBirthFiller extends Filler {
 		String[] meta = annotations.get(SFConstants.META).split("\t");
 		String filename = meta[2];
 
-		String[] names = mention.mentionString.split(" ");
-		String first = names[0];
-		String last = null;
-		if (names.length > 1) {
-			last = names[names.length - 1];
-		} else {
-			last = first;
-		}
+		Pattern pattern1 = Pattern.compile(mention.mentionString
+			+ " was founded (in|on) (.+?)\\p{Punct}");
 
-		// Three patterns are used here beginning with the full name, the first name and the last name respectively.  
-		Pattern patternFullName = Pattern.compile(mention.mentionString
-				+ " was born (in|on) (.+?)\\p{Punct}");
+		Pattern pattern2 = Pattern.compile(mention.mentionString
+			+ ", founded in (.+?)\\p{Punct}");
 
-		Pattern patternFirstName = Pattern.compile(first
-				+ " was born (in|on) (.+?)\\p{Punct}");
+		Pattern pattern3 = Pattern.compile(mention.mentionString
+			+ " was established (in|on) (.+?)\\p{Punct}");
 
-		Pattern patternLastName = Pattern.compile(last
-				+ " was born (in|on) (.+?)\\p{Punct}");
+		Pattern pattern4 = Pattern.compile(mention.mentionString
+			+ ", established in (.+?)\\p{Punct}");
 
 		{
-			// apply the pattern using the full name
-			Matcher matcher = patternFullName.matcher(tokens);
-			if (matcher.find()) {
-				System.out.println("hit "+matcher.group(2).trim()+"");
-				SFEntity.SingleAnswer ans = new SFEntity.SingleAnswer();
-				ans.answer = matcher.group(2).trim();
-				ans.doc = filename;
-				mention.answers.put(slotName, ans);
-			}
-		}
-		{
-			// apply the pattern using the first name
-			Matcher matcher = patternFirstName.matcher(tokens);
+			Matcher matcher = pattern1.matcher(tokens);
 			if (matcher.find()) {
 				SFEntity.SingleAnswer ans = new SFEntity.SingleAnswer();
 				ans.answer = matcher.group(2).trim();
@@ -77,8 +59,25 @@ public class RegexPerDateOfBirthFiller extends Filler {
 			}
 		}
 		{
-			// apply the pattern using the last name
-			Matcher matcher = patternLastName.matcher(tokens);
+			Matcher matcher = pattern2.matcher(tokens);
+			if (matcher.find()) {
+				SFEntity.SingleAnswer ans = new SFEntity.SingleAnswer();
+				ans.answer = matcher.group(2).trim();
+				ans.doc = filename;
+				mention.answers.put(slotName, ans);
+			}
+		}
+		{
+			Matcher matcher = pattern3.matcher(tokens);
+			if (matcher.find()) {
+				SFEntity.SingleAnswer ans = new SFEntity.SingleAnswer();
+				ans.answer = matcher.group(2).trim();
+				ans.doc = filename;
+				mention.answers.put(slotName, ans);
+			}
+		}
+		{
+			Matcher matcher = pattern4.matcher(tokens);
 			if (matcher.find()) {
 				SFEntity.SingleAnswer ans = new SFEntity.SingleAnswer();
 				ans.answer = matcher.group(2).trim();
@@ -87,4 +86,5 @@ public class RegexPerDateOfBirthFiller extends Filler {
 			}
 		}
 	}
+	
 }

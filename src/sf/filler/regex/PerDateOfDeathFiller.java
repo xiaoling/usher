@@ -11,13 +11,15 @@ import tackbp.KbEntity.EntityType;
 
 /**
  * Needs "tokens", "meta",
- * @author xiaoling
+ * @author Justin McManus
  *
  */
-public class RegexPerDateOfBirthFiller extends Filler {
-	public RegexPerDateOfBirthFiller() {
-		slotName = "per:birth_of_date";
+public class PerDateOfDeathFiller extends Filler {
+
+	public PerDateOfDeathFiller() {
+		slotName = "per:date_of_death";
 	}
+
 	@Override
 	public void predict(SFEntity mention, Map<String, String> annotations) {
 		// the query needs to be a PER type.
@@ -45,21 +47,20 @@ public class RegexPerDateOfBirthFiller extends Filler {
 			last = first;
 		}
 
-		// Three patterns are used here beginning with the full name, the first name and the last name respectively.  
+		// Three patterns are used here beginning with the full name, the first name and the last name respectively.
 		Pattern patternFullName = Pattern.compile(mention.mentionString
-				+ " was born (in|on) (.+?)\\p{Punct}");
+				+ " died (in|on) (.+?)\\p{Punct}");
 
 		Pattern patternFirstName = Pattern.compile(first
-				+ " was born (in|on) (.+?)\\p{Punct}");
+				+ " died (in|on) (.+?)\\p{Punct}");
 
 		Pattern patternLastName = Pattern.compile(last
-				+ " was born (in|on) (.+?)\\p{Punct}");
+				+ " died (in|on) (.+?)\\p{Punct}");
 
 		{
 			// apply the pattern using the full name
 			Matcher matcher = patternFullName.matcher(tokens);
 			if (matcher.find()) {
-				System.out.println("hit "+matcher.group(2).trim()+"");
 				SFEntity.SingleAnswer ans = new SFEntity.SingleAnswer();
 				ans.answer = matcher.group(2).trim();
 				ans.doc = filename;
@@ -87,4 +88,5 @@ public class RegexPerDateOfBirthFiller extends Filler {
 			}
 		}
 	}
+
 }

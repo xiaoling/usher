@@ -11,13 +11,15 @@ import tackbp.KbEntity.EntityType;
 
 /**
  * Needs "tokens", "meta",
- * @author xiaoling
+ * @author Alex Cartmell
  *
  */
-public class RegexPerDateOfBirthFiller extends Filler {
-	public RegexPerDateOfBirthFiller() {
-		slotName = "per:birth_of_date";
+public class PerCauseOfDeathFiller extends Filler {
+
+	public PerCauseOfDeathFiller() {
+		slotName = "per:cause_of_death";
 	}
+	
 	@Override
 	public void predict(SFEntity mention, Map<String, String> annotations) {
 		// the query needs to be a PER type.
@@ -47,21 +49,20 @@ public class RegexPerDateOfBirthFiller extends Filler {
 
 		// Three patterns are used here beginning with the full name, the first name and the last name respectively.  
 		Pattern patternFullName = Pattern.compile(mention.mentionString
-				+ " was born (in|on) (.+?)\\p{Punct}");
+				+ " (died|passed away|was (killed|murdered|assassinated|executed)) .*(of|by|due to) (.+?)\\p{Punct}");
 
 		Pattern patternFirstName = Pattern.compile(first
-				+ " was born (in|on) (.+?)\\p{Punct}");
+				+ " (died|passed away|was (killed|murdered|assassinated|executed)) .*(of|by|due to) (.+?)\\p{Punct}");
 
 		Pattern patternLastName = Pattern.compile(last
-				+ " was born (in|on) (.+?)\\p{Punct}");
+				+ " (died|passed away|was (killed|murdered|assassinated|executed)) .*(of|by|due to) (.+?)\\p{Punct}");
 
 		{
 			// apply the pattern using the full name
 			Matcher matcher = patternFullName.matcher(tokens);
 			if (matcher.find()) {
-				System.out.println("hit "+matcher.group(2).trim()+"");
 				SFEntity.SingleAnswer ans = new SFEntity.SingleAnswer();
-				ans.answer = matcher.group(2).trim();
+				ans.answer = matcher.group(4).trim();
 				ans.doc = filename;
 				mention.answers.put(slotName, ans);
 			}
@@ -71,7 +72,7 @@ public class RegexPerDateOfBirthFiller extends Filler {
 			Matcher matcher = patternFirstName.matcher(tokens);
 			if (matcher.find()) {
 				SFEntity.SingleAnswer ans = new SFEntity.SingleAnswer();
-				ans.answer = matcher.group(2).trim();
+				ans.answer = matcher.group(4).trim();
 				ans.doc = filename;
 				mention.answers.put(slotName, ans);
 			}
@@ -81,10 +82,11 @@ public class RegexPerDateOfBirthFiller extends Filler {
 			Matcher matcher = patternLastName.matcher(tokens);
 			if (matcher.find()) {
 				SFEntity.SingleAnswer ans = new SFEntity.SingleAnswer();
-				ans.answer = matcher.group(2).trim();
+				ans.answer = matcher.group(4).trim();
 				ans.doc = filename;
 				mention.answers.put(slotName, ans);
 			}
 		}
 	}
+	
 }

@@ -14,16 +14,14 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import el.ElConstants;
-
 public class KB {
 	public Map<String, KbEntity> entityMap = new HashMap<String, KbEntity>(); 
 	public void init() {
 		System.out.println("Reading KB");
-		for (int i = ElConstants.kbFileStart; i < ElConstants.kbFileEnd; ++i) {
+		for (int i = KbpConstants.kbFileStart; i < KbpConstants.kbFileEnd; ++i) {
 			System.out.print("reading "+i+"...\r");
-			readFrom(ElConstants.kbPath
-					+ String.format(ElConstants.kbFileFormat, i));
+			readFrom(KbpConstants.kbPath
+					+ String.format(KbpConstants.kbFileFormat, i));
 		}
 		System.out.println("Finished KB");
 	}
@@ -54,7 +52,6 @@ public class KB {
 					}
 				}
 				entityMap.put(entity.name,entity);
-//				System.out.println(entity);
 			}
 		} catch (SAXException | IOException | ParserConfigurationException e) {
 			e.printStackTrace();

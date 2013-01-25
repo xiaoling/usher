@@ -1,6 +1,6 @@
-<project name="tkt" default="compile" basedir=".">
+<project name="usher" default="compile" basedir=".">
     <description>
-       xltools
+       usher
     </description>
   <!-- set global properties for this build -->
   <property name="src" location="src"/>
@@ -23,10 +23,9 @@
     </javac>
   </target>
 	<target name="compress" description="Compression target" depends="compile">
-	        <jar jarfile="tkt.jar" basedir="bin" />
+	        <jar jarfile="usher.jar" basedir="bin" />
+		<jar jarfile="usher-src.jar" basedir="src" />
 	  </target>
-   
-		
   
   <target name="clean"
         description="clean up" >
