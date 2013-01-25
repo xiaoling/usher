@@ -9,6 +9,7 @@ import sf.SFEntity.SingleAnswer;
 import sf.eval.SFScore;
 import sf.filler.Filler;
 import sf.retriever.ProcessedCorpus;
+import util.Configure;
 import util.FileUtil;
 
 /**
@@ -31,6 +32,10 @@ import util.FileUtil;
 
 public class Assignment1 {
 	public static void main(String[] args) throws Exception {
+		if (!Configure.setup("props")) {
+			System.err.println("properties setup failed");
+			System.exit(-1);
+		}
 		// if the first 2 steps are run
 		boolean run = true;
 		// if the 3rd step is run
