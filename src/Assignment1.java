@@ -124,6 +124,14 @@ public class Assignment1 {
 						System.err.print("finished reading " + c + " lines\r");
 					}
 
+					// FIXME: in case the # of tokens != the # of tokenOffsets
+					String tokens = annotations.get(SFConstants.TOKENS);
+					String postags = annotations.get(SFConstants.STANFORDPOS);
+					if (tokens.split(" ").length!= postags.split(" ").length) {
+						System.err.println("token numbers don't match");
+						continue;
+					}
+					
 					// for each query, find out if the slot can be filled
 					for (SFEntity query : queryReader.queryList) {
 						// apply the filler to the sentences with its
