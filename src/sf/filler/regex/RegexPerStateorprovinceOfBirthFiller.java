@@ -54,7 +54,7 @@ public class RegexPerStateorprovinceOfBirthFiller extends Filler {
 		// get a set of countries
 		// Currently just stored the file of the countries in the same folder.
 		// TODO move the countries file somewher else and change the path to the file.
-		String fileString = FileUtil.getTextFromFile("data/Countries.txt");
+		String fileString = FileUtil.getTextFromFile("data/countries3.txt");
 		String[] countries = fileString.split("\n");
 		Set<String> countrySet = new HashSet<String>();
 
