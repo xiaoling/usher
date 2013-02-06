@@ -18,7 +18,7 @@
   <target name="compile" depends="init"
         description="compile the source " >
     <!-- Compile the java code from ${src} into ${build} -->
-    <javac debug="on" nowarn="on" srcdir="${src}" classpath="bin" destdir="${build}">
+    <javac debug="on" nowarn="on" srcdir="${src}" classpath="bin:lib/*" destdir="${build}">
      	   
     </javac>
   </target>
