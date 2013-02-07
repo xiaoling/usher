@@ -20,6 +20,7 @@ import org.wikipedia.miner.annotation.preprocessing.WikiPreprocessor;
 import org.wikipedia.miner.annotation.tagging.DocumentTagger;
 import org.wikipedia.miner.annotation.tagging.WikiTagger;
 import org.wikipedia.miner.annotation.weighting.LinkDetector;
+import org.wikipedia.miner.db.WDatabase.DatabaseType;
 import org.wikipedia.miner.model.Wikipedia;
 import org.wikipedia.miner.util.Position;
 import org.wikipedia.miner.util.WikipediaConfiguration;
@@ -43,13 +44,14 @@ public class WikipediaMinerAnnotator {
 				false);
 		_tagger = new WikiTagger();
 
-//		String text = "Mixed martial artists competing in Pride parade around the ring during the tournament's opening ceremony";
-//		annotate(text);
+		// String text =
+		// "Mixed martial artists competing in Pride parade around the ring during the tournament's opening ceremony";
+		// annotate(text);
 	}
 
 	public String annotate(String originalMarkup) throws Exception {
 		String[] pair = originalMarkup.split("\t");
-		if (pair.length!=2) {
+		if (pair.length != 2) {
 			System.out.println(originalMarkup);
 		}
 		// if (pair.length==1){
@@ -114,20 +116,23 @@ public class WikipediaMinerAnnotator {
 	 * @throws Exception
 	 */
 	public static void main(String args[]) throws Exception {
-		args = new String[] {
-				"/projects/pardosa/data12/xiaoling/wikipediaminer/my-wikipedia-template.xml",
-				"/projects/pardosa/s5/TACKBP/data/09nw/sentences.tokens",
-				"/projects/pardosa/s5/TACKBP/data/09nw/sentences.wikification.milne", };
+		// args = new String[] {
+		// "/projects/pardosa/data12/xiaoling/wikipediaminer/my-wikipedia-template.xml",
+		// "/projects/pardosa/s5/TACKBP/data/09nw/sentences.tokens",
+		// "/projects/pardosa/s5/TACKBP/data/09nw/sentences.wikification.milne",
+		// };
 		WikipediaConfiguration conf = new WikipediaConfiguration(new File(
 				args[0]));
-//		conf.clearDatabasesToCache();
-//		conf.addDatabaseToCache(DatabaseType.label) ;
-//        conf.addDatabaseToCache(DatabaseType.pageLinksInNoSentences) ;
-        
+		conf.clearDatabasesToCache();
+		conf.addDatabaseToCache(DatabaseType.label);
+		conf.addDatabaseToCache(DatabaseType.pageLinksInNoSentences);
+		System.out.println("hello");
 		Wikipedia wikipedia = new Wikipedia(conf, true);
+		System.out.println("wikipedia built");
 		// PreprocessedDocument doc = _preprocessor.preprocess(originalMarkup) ;
 		WikipediaMinerAnnotator annotator = new WikipediaMinerAnnotator(
 				wikipedia);
+		System.out.println("annotator built");
 		// String text =
 		// "Mixed martial artists competing in Pride parade around the ring during the tournament's opening ceremony";
 		// System.out.println(annotator.annotate(text));
@@ -136,9 +141,10 @@ public class WikipediaMinerAnnotator {
 		PrintWriter writer = new PrintWriter(new OutputStreamWriter(
 				new FileOutputStream(args[2]), "UTF8"));
 		int i = 0;
+		System.out.println("begin");
 		while (true) {
 			if (i++ % 1000 == 0) {
-				System.out.print("finished "+i+"\r");
+				System.out.print("finished " + i + "\r");
 			}
 			// System.out.println("Enter snippet to annotate (or ENTER to quit):");
 			String line = reader.readLine();

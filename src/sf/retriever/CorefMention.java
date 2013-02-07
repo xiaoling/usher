@@ -126,7 +126,7 @@ public class CorefMention {
 	}
 
 	enum MentionType {
-		PRONOMIAL, NAMED, NOMINAL
+		PRONOMINAL, PROPER, NOMINAL
 	}
 
 	public CorefMention(String corefCache) {
