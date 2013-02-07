@@ -1,3 +1,4 @@
+import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
@@ -48,9 +49,23 @@ public class Main {
 	}
 
 	public static void main(String[] args) {
-		for (int i = 0; i < 16; i++) {
-			new HelloThread(i).start();
+		for (String file : new File("lib").list()) {
+			String id = file.replace(".jar", "");
+			String artifact = id.replaceAll("\\-[0-9\\.]+$", "");
+			String ver = "1.0";
+			if (!artifact.equals(id))
+				ver = id.replace(artifact, "").substring(1);
+			System.out.println("<dependency>\n" + "\t<groupId>" + artifact
+					+ "</groupId>\n" + "\t<artifactId>" + artifact
+					+ "</artifactId>\n" + "\t<version>" + ver + "</version>\n"
+					+ "\t<scope>system</scope>\n"
+					+ "\t<systemPath>${project.basedir}/lib/" + file
+					+ "</systemPath>\n" + "</dependency>");
 		}
+
+		// for (int i = 0; i < 16; i++) {
+		// new HelloThread(i).start();
+		// }
 		// if (args[0].equals("sf")) {
 		// sf_main(args);
 		// }
