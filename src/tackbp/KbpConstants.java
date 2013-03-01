@@ -22,5 +22,5 @@ public class KbpConstants {
 			+ "TAC10Source/TAC_2010_KBP_Source_Data/data/";
 	
 //	public static final String processedDocPath = "/projects/pardosa/s5/raphaelh/tac/data/09nw/";
-	public static final String processedDocPath = "/projects/pardosa/s5/TACKBP/data/09nwa/";
+	public static final String processedDocPath = "/projects/pardosa/s5/TACKBP/data/09nw/";
 }

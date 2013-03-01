@@ -41,6 +41,6 @@ public class SFConstants {
 	public static final String prefix = "sentences";
 
 	public static final String[] dataTypes = { META, TEXT, TOKENS, TOKEN_SPANS,
-			STANFORDPOS, CJ, DEPS_STANFORD_CC_PROCESSED, STANFORDNER, COREF,
-			WIKIFICATION };
+			STANFORDPOS, CJ, DEPS_STANFORD_CC_PROCESSED, STANFORDNER,/* COREF,*/
+			/*WIKIFICATION*/ };
 }
