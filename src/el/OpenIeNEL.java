@@ -1,18 +1,25 @@
 package el;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+import java.util.logging.Level;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
+
 import org.apache.commons.lang.StringUtils;
 
 import sf.SFConstants;
 import sf.retriever.FakeProcessedCorpus;
 import sf.retriever.ProcessedCorpus;
+import tackbp.KB;
 import util.FileUtil;
+import edu.stanford.nlp.util.Pair;
 
 /**
  * 
@@ -20,7 +27,11 @@ import util.FileUtil;
  */
 
 public class OpenIeNEL {
-	private static Set<String> skippedTypes = null; 
+	public String predFile = "data/el.openie.out.2";
+
+	private static Logger logger = Logger.getLogger(OpenIeNEL.class.getName());
+
+	private static Set<String> skippedTypes = null;
 	static {
 		skippedTypes = new HashSet<String>();
 		skippedTypes.add("DATE");
@@ -33,7 +44,7 @@ public class OpenIeNEL {
 		skippedTypes.add("TIME");
 	}
 
-	public static void main(String[] args) {
+	public static void prepareInput(String[] args) {
 		el.QueryReader qReader = new el.QueryReader();
 		qReader.readFrom(ElConstants.queryFile);
 		// StringMatchBaseline baseline = new StringMatchBaseline();
@@ -41,7 +52,7 @@ public class OpenIeNEL {
 		for (EntityMention mention : qReader.queryList) {
 			docs.add(mention.mentionDoc);
 		}
-		System.out.println(docs.size());
+		logger.fine("docs size = " + docs.size());
 		ProcessedCorpus corpus;
 		String sentId = null;
 		try {
@@ -51,11 +62,11 @@ public class OpenIeNEL {
 			Map<String, String> annotations = null;
 			int c = 0;
 			PrintWriter writer = new PrintWriter(new OutputStreamWriter(
-				new FileOutputStream("data/el.openie"), "UTF8"));
+					new FileOutputStream("data/el.openie"), "UTF8"));
 			while (corpus.hasNext()) {
 				annotations = corpus.next();
 				if (c++ % 100000 == 0) {
-					System.err.print("finished reading " + c + " lines\r");
+					logger.fine("finished reading " + c + " lines\r");
 				}
 
 				// check if the file is in the src file set.
@@ -64,14 +75,14 @@ public class OpenIeNEL {
 				sentId = annotations.get(SFConstants.META).split("\t")[0];
 				String filename = annotations.get(SFConstants.META).split("\t")[2];
 				String tokens = annotations.get(SFConstants.TOKENS).split("\t")[1];
-				if (annotations.get(SFConstants.STANFORDNER)
-						.split("\t").length == 1) {
-					System.out.println("NER:"+annotations.get(SFConstants.STANFORDNER));
+				if (annotations.get(SFConstants.STANFORDNER).split("\t").length == 1) {
+					logger.fine("no NER error:"
+							+ annotations.get(SFConstants.STANFORDNER));
 					continue;
 				}
-				if (annotations.get(SFConstants.STANFORDPOS)
-						.split("\t").length == 1) {
-					System.out.println(annotations.get(SFConstants.STANFORDPOS));
+				if (annotations.get(SFConstants.STANFORDPOS).split("\t").length == 1) {
+					logger.fine("no pos error:"
+							+ annotations.get(SFConstants.STANFORDPOS));
 				}
 				String postags = annotations.get(SFConstants.STANFORDPOS)
 						.split("\t")[1];
@@ -83,8 +94,9 @@ public class OpenIeNEL {
 					String[] pt = postags.split(" ");
 					String[] nt = nerTypes.split(" ");
 					if (tk.length != pt.length || pt.length != nt.length) {
-						System.err.println(sentId + ": errors " + tk.length
-								+ " " + pt.length + " " + nt.length);
+						logger.fine(sentId
+								+ ": token size inconsistency errors "
+								+ tk.length + " " + pt.length + " " + nt.length);
 					}
 				}
 
@@ -94,7 +106,7 @@ public class OpenIeNEL {
 				getNamedEntities(nerTypes, namedEntitiesTypes,
 						namedEntitiesStarts, namedEntitiesEnds);
 				for (int i = 0; i < namedEntitiesTypes.size(); i++) {
-					if (skippedTypes .contains(namedEntitiesTypes.get(i))) {
+					if (skippedTypes.contains(namedEntitiesTypes.get(i))) {
 						continue;
 					}
 					int argStart = namedEntitiesStarts.get(i);
@@ -109,7 +121,7 @@ public class OpenIeNEL {
 			writer.close();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			System.err.println("\n"+sentId);
+			System.err.println("\n" + sentId);
 			e.printStackTrace();
 		}
 	}
@@ -159,5 +171,38 @@ public class OpenIeNEL {
 			}
 		}
 		return null;
+	}
+
+	public Map<Pair<String, String>, String> preds = null;
+	public int nilId = 0;
+
+	public void init() {
+		String[] lines = FileUtil.getTextFromFile(predFile).split("\n");
+		preds = new HashMap<Pair<String, String>, String>();
+		for (String line : lines) {
+			String[] fields = line.split("\t");
+			if (!fields[3].equals("X")) {
+				String pred = fields[3].split(",")[0];
+				Pair<String, String> pair = new Pair<String, String>(
+						fields[0].toLowerCase(), fields[13].substring(0,
+								fields[13].indexOf("#")));
+				preds.put(pair, pred);
+			}
+		}
+	}
+
+	public void predict(EntityMention mention, KB kb) {
+		if (preds == null) {
+			init();
+		}
+		Pair<String, String> pair = new Pair<String, String>(
+				mention.mentionString.toLowerCase(), mention.mentionDoc);
+		String entity = preds.get(pair);
+		if (entity != null && kb.entityMap.containsKey(entity)) {
+			mention.entityId = kb.entityMap.get(entity).kbId;
+		} else {
+			mention.entityId = String.format("NIL%04d", nilId++);
+		}
+		logger.info(mention.toString() + "\t" + entity);
 	}
 }

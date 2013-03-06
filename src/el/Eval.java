@@ -9,7 +9,8 @@ public class Eval {
 //		String[] predLines = FileUtil.getTextFromFile(
 //				"data/el_predictions/el.out").split("\n");
 //		String[] predLines = FileUtil.getTextFromFile("data/el_predictions/milne.pred").split("\n");
-		String[] predLines = FileUtil.getTextFromFile("data/el_predictions/uiuc/el.out").split("\n");
+//		String[] predLines = FileUtil.getTextFromFile("data/el_predictions/uiuc/el.out").split("\n");
+		String[] predLines = FileUtil.getTextFromFile("data/el_predictions/openie/el.out").split("\n");
 		int correct = 0;
 		int tp = 0, fp = 0, fn = 0, pos = 0;
 		int all = 0;
